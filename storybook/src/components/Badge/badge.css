@@ -1,0 +1,3 @@
+.m8-badge { display: inline-flex; min-height: 24px; align-items: center; width: fit-content; padding: 3px 8px; border: 1px solid var(--m8-border-default); border-radius: var(--m8-radius-none); color: var(--m8-text-secondary); font: 500 11px/1.3 var(--m8-type-mono); letter-spacing: .04em; }
+.m8-badge--strong { border-color: var(--m8-action-primary); background: var(--m8-action-primary); color: var(--m8-action-on-primary); }
+.m8-badge--pixel { border-color: var(--m8-border-strong); color: var(--m8-text-primary); box-shadow: 2px 2px 0 var(--m8-action-primary); }

@@ -1,0 +1,16 @@
+.m8-field { display: flex; width: 100%; flex-direction: column; gap: var(--m8-space-2); color: var(--m8-text-primary); }
+.m8-field__label { font: 600 14px/1.35 var(--m8-type-interface); }
+.m8-field__input {
+  width: 100%; min-height: 44px; padding: 0 12px;
+  border: 1px solid var(--m8-border-default); border-radius: var(--m8-radius-none);
+  background: var(--m8-background-raised); color: var(--m8-text-primary);
+  font: 400 15px/1.4 var(--m8-type-interface);
+  transition: border-color var(--m8-motion-fast-02) ease, box-shadow var(--m8-motion-fast-02) ease;
+}
+.m8-field__input::placeholder { color: var(--m8-text-muted); }
+.m8-field__input:hover:not(:disabled) { border-color: var(--m8-border-strong); }
+.m8-field__input:focus-visible { outline: 2px solid var(--m8-action-primary); outline-offset: 2px; }
+.m8-field__input:disabled { background: var(--m8-background-surface); color: var(--m8-text-muted); cursor: not-allowed; }
+.m8-field__input--error { border-color: var(--m8-border-strong); box-shadow: inset 3px 0 var(--m8-action-primary); }
+.m8-field__message { color: var(--m8-text-secondary); font-size: 13px; line-height: 1.4; }
+.m8-field__message--error { color: var(--m8-text-primary); font-weight: 600; }

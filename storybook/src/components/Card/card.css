@@ -1,0 +1,9 @@
+.m8-card { display: flex; min-width: 0; flex-direction: column; gap: var(--m8-space-4); padding: var(--m8-space-6); border: 1px solid var(--m8-border-default); background: var(--m8-background-raised); color: var(--m8-text-primary); }
+.m8-card--pixel { border-color: var(--m8-border-strong); box-shadow: 6px 6px 0 var(--m8-action-primary); }
+.m8-card__header { display: grid; gap: var(--m8-space-2); }
+.m8-card__eyebrow { margin: 0; color: var(--m8-text-secondary); font: 500 11px/1.35 var(--m8-type-mono); letter-spacing: .06em; text-transform: uppercase; }
+.m8-card__title { margin: 0; font: 600 20px/1.25 var(--m8-type-interface); }
+.m8-card__body { color: var(--m8-text-secondary); font-size: 15px; line-height: 1.55; }
+.m8-card__body > :first-child { margin-top: 0; }
+.m8-card__body > :last-child { margin-bottom: 0; }
+.m8-card__footer { padding-top: var(--m8-space-4); border-top: 1px solid var(--m8-border-default); }
