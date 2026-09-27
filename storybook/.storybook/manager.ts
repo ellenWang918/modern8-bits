@@ -5,7 +5,7 @@ addons.setConfig({
   theme: create({
     base: 'light',
     brandTitle: 'Modern8-bits',
-    brandImage: './modern8-bits.svg',
+    brandImage: '/modern8-bits.svg',
     fontBase: '"Space Grotesk", sans-serif',
   }),
 });
