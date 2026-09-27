@@ -1,0 +1,42 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+<Meta title="Foundation/Overview" />
+
+# Modern8-bits Design System
+
+A living, extractable design system. Every value here is a real Figma variable or style, so an engineer or an AI can pull exact specs and rebuild screens straight from the source instead of eyeballing a mockup.
+
+<a href="https://www.figma.com/design/Ig6OBlF54TZEoe3D8BwwlJ/Modern8-bits?node-id=3-9" target="_blank" rel="noreferrer">Open the design system overview in Figma →</a>
+
+## Foundations
+
+Colour, design language, spacing, themes and typography are the raw material of the system. They are bound to variables and styles so components can use consistent, reusable values.
+
+In this Storybook, the current implementation exposes these foundations through shared CSS custom properties in `src/styles/tokens.css`. Use the **Appearance** control to switch between light and dark themes.
+
+## How the system is organized
+
+| Layer | Role |
+| --- | --- |
+| **Foundations** | Colour, design language, spacing, themes and typography. The raw material, bound to variables and styles. |
+| **Components** | Reusable building blocks assembled only from foundation tokens. |
+| **Patterns** | How components come together into real screens. This layer grows as the system develops. |
+
+## Principles
+
+- **Tokens are the source of truth.** Reference variables and styles; do not hardcode a hex value or pixel value.
+- **Prefer semantic tokens to primitive tokens.** Reach for roles such as `text/primary` and `surface/card` before raw values.
+- **Anchor to the brand guidelines.** Extend what exists instead of inventing new patterns.
+- **Use restraint.** Keep one highlighter per viewport, a minimal palette and generous neutrals.
+- **Keep documentation connected to the system.** Build each sheet from the tokens it documents so token changes flow through to the docs.
+
+## Token naming
+
+Two layers keep token names predictable to read and query:
+
+| Layer | Examples | Use |
+| --- | --- | --- |
+| **Primitive** | `coffee/800`, `sage/500`, `space-4`, `radius-md` | Raw palette, spacing and shape values. |
+| **Semantic** | `text/primary`, `surface/card`, `brand/primary`, `feedback/error/bg` | Named roles that describe how a value is used. |
+
+Use semantic roles in components. This lets themes change the underlying values without changing the component structure.

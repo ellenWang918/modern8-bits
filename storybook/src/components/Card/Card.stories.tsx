@@ -3,7 +3,7 @@ import { Button } from '../Button/Button'
 import { Card } from './Card'
 
 const meta = {
-  title: 'Content/Card',
+  title: 'Component/Card',
   component: Card,
   tags: ['autodocs'],
   args: {
@@ -19,6 +19,6 @@ type Story = StoryObj<typeof meta>
 
 export const Default: Story = {}
 export const WithFooter: Story = {
-  args: { footer: <Button variant="secondary" size="small">Explore foundations</Button> },
+  args: { footer: <Button variant="outline" size="small">Explore foundations</Button> },
 }
 export const Pixel: Story = { args: { variant: 'pixel', eyebrow: 'COMPONENT / 001' } }

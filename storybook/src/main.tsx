@@ -21,10 +21,11 @@ function App() {
           <p>Clear actions, with just enough character.</p>
         </div>
         <div className="button-grid">
-          <div className="button-sample"><span>Primary</span><Button>Get started</Button></div>
-          <div className="button-sample"><span>Secondary</span><Button variant="secondary">Learn more</Button></div>
+          <div className="button-sample"><span>Contained</span><Button variant="contained">Get started</Button></div>
+          <div className="button-sample"><span>Outline</span><Button variant="outline">Learn more</Button></div>
+          <div className="button-sample"><span>Ghost</span><Button variant="ghost">Explore</Button></div>
           <div className="button-sample"><span>Pixel detail</span><Button variant="pixel">Explore system</Button></div>
-          <div className="button-sample"><span>Disabled</span><Button disabled>Unavailable</Button></div>
+          <div className="button-sample"><span>Disable</span><Button variant="contained" disabled>Unavailable</Button></div>
         </div>
       </section>
       <section className="showcase__section" aria-labelledby="form-heading">
@@ -53,7 +54,7 @@ function App() {
           <Card eyebrow="DESIGN SYSTEM" title="One flexible foundation">
             Semantic tokens keep components consistent as products make the system their own.
           </Card>
-          <Card eyebrow="COMPONENT / 001" title="Quiet UI. Loud pixels." variant="pixel" footer={<Button variant="secondary" size="small">Explore components</Button>}>
+          <Card eyebrow="COMPONENT / 001" title="Quiet UI. Loud pixels." variant="pixel" footer={<Button variant="outline" size="small">Explore components</Button>}>
             Pixel geometry adds warmth in small, deliberate moments.
           </Card>
         </div>

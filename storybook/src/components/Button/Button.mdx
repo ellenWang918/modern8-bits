@@ -1,0 +1,57 @@
+import { ArgTypes, Canvas, Meta } from '@storybook/addon-docs/blocks'
+import * as ButtonStories from './Button.stories'
+import { Button } from './Button'
+
+<Meta of={ButtonStories} name="Overview" />
+
+# Button
+
+Buttons trigger an action or move someone to the next step. Use a short, clear label that describes what will happen.
+
+## Overview
+
+The Button component has contained, outline, ghost, and pixel treatments, plus a disabled state and three sizes. It uses semantic theme tokens, so its colors adapt when you switch the Storybook appearance between light and dark.
+
+## Variants
+
+Use contained for the main action, outline or ghost for lower emphasis, and pixel for a selective stepped accent.
+
+### Contained
+
+<Canvas of={ButtonStories.Contained} layout="centered" story={{ inline: true }} />
+
+### Outline
+
+<Canvas of={ButtonStories.Outline} layout="centered" story={{ inline: true }} />
+
+### Ghost
+
+<Canvas of={ButtonStories.Ghost} layout="centered" story={{ inline: true }} />
+
+### Disable
+
+Disabled buttons communicate that an action is currently unavailable. Pair the disabled state with nearby guidance when people need to know how to make the action available.
+
+<Canvas of={ButtonStories.Disable} layout="centered" story={{ inline: true }} />
+
+### Pixel
+
+<Canvas of={ButtonStories.Pixel} layout="centered" story={{ inline: true }} />
+
+### Sizes
+
+Choose a size to fit the surrounding layout while keeping controls easy to use.
+
+<Canvas of={ButtonStories.Sizes} layout="centered" story={{ inline: true }} />
+
+### Icon only
+
+Icon-only buttons use the same four treatments across small, medium, and large sizes. Each button has an accessible label for assistive technology.
+
+<Canvas of={ButtonStories.IconOnly} layout="centered" story={{ inline: true }} />
+
+## Component API
+
+`Button` also accepts the standard HTML button attributes, including `disabled`, `type`, and event handlers.
+
+<ArgTypes of={Button} />
