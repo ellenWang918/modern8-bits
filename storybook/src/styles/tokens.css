@@ -58,6 +58,11 @@
   --m8-radius-none: 0;
   --m8-radius-small: 4px;
   --m8-radius-medium: 8px;
+  --m8-radius-sm: var(--m8-radius-small);
+  --m8-radius-md: var(--m8-radius-medium);
+  --m8-radius-lg: 12px;
+  --m8-radius-full: 9999px;
+  --m8-techno: #1a69fd;
   --m8-stroke-hairline: 1px;
   --m8-stroke-pixel: 2px;
   --m8-motion-fast-01: 70ms;
