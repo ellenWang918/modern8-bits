@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo-blk.svg" alt="Modern8-bits logo" width="88" />
+  <img src="https://raw.githubusercontent.com/ellenWang918/modern8-bits/main/logo-blk.svg" alt="Modern8-bits logo" width="88" />
 </p>
 
 <h1 align="center">Modern8-bits</h1>
