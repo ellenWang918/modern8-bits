@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Analytics } from '@vercel/analytics/react'
 import { Badge, Button, Card, Checkbox, Input } from './components'
 import './styles/tokens.css'
 import './styles/global.css'
@@ -65,5 +66,8 @@ function App() {
 }
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode><App /></React.StrictMode>,
+  <React.StrictMode>
+    <App />
+    <Analytics />
+  </React.StrictMode>,
 )

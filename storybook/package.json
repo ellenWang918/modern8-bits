@@ -11,6 +11,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -23,12 +24,12 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.4.0",
+    "@vitest/browser-playwright": "latest",
+    "@vitest/coverage-v8": "latest",
+    "playwright": "latest",
     "storybook": "^10.6.0",
     "typescript": "~5.8.3",
     "vite": "^6.3.0",
-    "vitest": "latest",
-    "playwright": "latest",
-    "@vitest/browser-playwright": "latest",
-    "@vitest/coverage-v8": "latest"
+    "vitest": "latest"
   }
 }
