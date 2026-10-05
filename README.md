@@ -15,6 +15,10 @@
 
 Modern8-bits is a growing design system for building consistent digital experiences across products. It pairs reusable design tokens and React components with interactive Storybook documentation.
 
+It prioritizes people building responsive web products with coding agents, including people without design skills, while supporting designers and developers with explicit foundations. The visual direction is industry-neutral: contemporary interfaces with subtle nostalgia and optional pixel details.
+
+The first release targets one fixed theme with light and dark appearances, plus an independent low-fidelity presentation for reviewing structure. Start with [USAGE.md](USAGE.md) and the local Storybook's Foundation / Getting Started page. See the [confirmed brief](.scratch/foundations-first-release/spec.md) and [one-week plan](.scratch/foundations-first-release/plan.md).
+
 ## What's included
 
 - **Foundations:** color, themes, typography, spacing, geometry, and motion.
@@ -46,7 +50,7 @@ storybook/
 └── vitest.config.ts  # Storybook story tests
 ```
 
-The detailed foundation guide is in [DESIGN.md](./DESIGN.md). Component documentation and examples are available in [Storybook](https://modern8-bits-up.vercel.app/).
+The detailed foundation guide is in [DESIGN.md](./DESIGN.md), and token governance is in [TOKEN-RULE.md](./TOKEN-RULE.md). Component documentation and examples are available in [Storybook](https://modern8-bits-up.vercel.app/).
 
 ## Development commands
 
@@ -65,3 +69,5 @@ Run these from `storybook/`:
 The system uses CSS custom properties with the `--m8-` prefix. Components should use semantic tokens so light and dark themes can share the same structure. The type system pairs Space Grotesk for display, IBM Plex Sans for interface text, and IBM Plex Mono for compact labels and details.
 
 The Storybook Design panel links to the [Modern8-bits Figma file](https://www.figma.com/design/Ig6OBlF54TZEoe3D8BwwlJ/Modern8-bits). The current library is under active development; component stories document the implemented states and variants.
+
+Figma is the authoring source for design decisions. Code definitions are maintained manually and must be checked against Figma before claiming parity. The [verified inventory](.scratch/foundations-first-release/figma-inventory.md) records current differences.

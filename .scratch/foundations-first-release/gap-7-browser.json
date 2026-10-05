@@ -1,0 +1,73 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "overflow": false,
+      "hero": "48px",
+      "columns": "4",
+      "gutter": "16px",
+      "buttonHeight": 40,
+      "buttonFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "cardRadius": "8px",
+      "cardGap": "32px"
+    },
+    {
+      "width": 672,
+      "overflow": false,
+      "hero": "72px",
+      "columns": "8",
+      "gutter": "24px",
+      "buttonHeight": 40,
+      "buttonFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "cardRadius": "8px",
+      "cardGap": "32px"
+    },
+    {
+      "width": 1056,
+      "overflow": false,
+      "hero": "72px",
+      "columns": "12",
+      "gutter": "32px",
+      "buttonHeight": 40,
+      "buttonFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "cardRadius": "8px",
+      "cardGap": "32px"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "hero": "72px",
+      "columns": "12",
+      "gutter": "32px",
+      "buttonHeight": 40,
+      "buttonFont": "\"IBM Plex Sans\", Arial, sans-serif",
+      "cardRadius": "8px",
+      "cardGap": "32px"
+    },
+    {
+      "heights": [
+        32,
+        40,
+        48
+      ],
+      "families": [
+        "\"IBM Plex Sans\", Arial, sans-serif",
+        "\"IBM Plex Sans\", Arial, sans-serif",
+        "\"IBM Plex Sans\", Arial, sans-serif"
+      ]
+    },
+    {
+      "heights": [
+        32,
+        40,
+        48
+      ],
+      "families": [
+        "\"IBM Plex Sans\", Arial, sans-serif",
+        "\"IBM Plex Sans\", Arial, sans-serif",
+        "\"IBM Plex Sans\", Arial, sans-serif"
+      ]
+    }
+  ],
+  "errors": []
+}

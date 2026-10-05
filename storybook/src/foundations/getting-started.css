@@ -1,0 +1,25 @@
+.m8-getting-started { max-width: 1120px; margin-inline: auto; padding: var(--m8-layout-gutter); color: var(--m8-text-primary); font: var(--m8-type-body-base-font); }
+.m8-getting-started > section { margin-top: var(--m8-space-12); }
+.sbdocs .m8-getting-started h1 { font: var(--m8-type-display-large-font); letter-spacing: var(--m8-type-display-large-tracking); }
+.sbdocs .m8-getting-started h2 { font: var(--m8-type-heading-card-font); }
+.m8-getting-started__controls { display: flex; flex-wrap: wrap; gap: var(--m8-space-8); }
+.m8-getting-started fieldset { padding: 0; margin: 0; border: 0; min-width: 0; }
+.m8-getting-started legend { font: var(--m8-type-ui-label-font); margin-bottom: var(--m8-space-2); }
+.m8-getting-started fieldset > div, .m8-getting-started__badges, .m8-getting-started__actions { display: flex; flex-wrap: wrap; gap: var(--m8-space-3); }
+.m8-getting-started__example { background: var(--m8-background-canvas); color: var(--m8-text-primary); padding: var(--m8-space-6); border: var(--m8-stroke-hairline) solid var(--m8-border-default); }
+.m8-getting-started__badges { margin-bottom: var(--m8-space-6); }
+.m8-getting-started form { display: grid; gap: var(--m8-space-6); }
+.sbdocs .m8-getting-started .m8-card__title { font: var(--m8-type-heading-card-font); color: var(--m8-text-primary); margin: 0; }
+.sbdocs .m8-getting-started .m8-card__eyebrow { font: var(--m8-type-utility-label-font); margin: 0; color: var(--m8-text-secondary); }
+.sbdocs .m8-getting-started__badges { margin-bottom: var(--m8-space-6); }
+.sbdocs .m8-getting-started .m8-button { font: var(--m8-type-button-label-sm-font); }
+.sbdocs .m8-getting-started .m8-button--medium { font: var(--m8-type-button-label-md-font); }
+.sbdocs .m8-getting-started .m8-button--large { font: var(--m8-type-button-label-lg-font); }
+.sbdocs .m8-getting-started .m8-button__label { font: inherit; }
+.sbdocs .m8-getting-started :is(.m8-badge, .m8-field__label, .m8-checkbox__label) { font: var(--m8-type-ui-label-font); }
+.sbdocs .m8-getting-started .m8-badge--pixel { font: var(--m8-type-utility-label-font); letter-spacing: var(--m8-type-utility-label-tracking); }
+.sbdocs .m8-getting-started :is(.m8-field__message, .m8-checkbox__message) { font: var(--m8-type-body-small-font); }
+.sbdocs .m8-getting-started :is(.m8-field__message--error, .m8-checkbox__message--error) { font-weight: 600; }
+.sbdocs .m8-getting-started__result { margin: 0; color: var(--m8-text-secondary); font: var(--m8-type-body-small-font); }
+.sbdocs .m8-getting-started [data-presentation='low-fidelity'] :is(.m8-card__title, .m8-card__eyebrow, .m8-button, .m8-badge, .m8-field__label, .m8-checkbox__label, .m8-field__message, .m8-checkbox__message) { font-family: var(--m8-presentation-font-interface); letter-spacing: 0; }
+@media (max-width: 671px) { .m8-getting-started__example { padding: var(--m8-space-3); } }

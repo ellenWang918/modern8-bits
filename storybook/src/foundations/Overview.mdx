@@ -4,39 +4,33 @@ import { Meta } from '@storybook/addon-docs/blocks'
 
 # Modern8-bits Design System
 
-A living, extractable design system. Every value here is a real Figma variable or style, so an engineer or an AI can pull exact specs and rebuild screens straight from the source instead of eyeballing a mockup.
+A design system for building clear, contemporary web products with a touch of 8-bit nostalgia. Shared foundations make everyday design decisions easier; optional pixel details add character.
 
-<a href="https://www.figma.com/design/Ig6OBlF54TZEoe3D8BwwlJ/Modern8-bits?node-id=3-9" target="_blank" rel="noreferrer">Open the design system overview in Figma →</a>
+## Who it is for
 
-## Foundations
+Modern8-bits supports designers, developers, and people building with coding agents who have little or no design experience. Its neutral visual language can support different industries, while content and imagery give each product its own identity.
 
-Colour, design language, spacing, themes and typography are the raw material of the system. They are bound to variables and styles so components can use consistent, reusable values.
+## Design principles
 
-In this Storybook, the current implementation exposes these foundations through shared CSS custom properties in `src/styles/tokens.css`. Use the **Appearance** control to switch between light and dark themes.
+- **Clarity first.** Use readable typography, clear hierarchy, and predictable interactions.
+- **A coherent foundation.** Shared colour, typography, spacing, and geometry rules keep components consistent.
+- **Character with restraint.** Keep everyday interfaces neutral; use pixel accents deliberately.
+- **Meaning survives presentation.** Preserve labels, focus, feedback, and behaviour in both finished and low-fidelity views.
 
-## How the system is organized
+## Current scope
 
-| Layer | Role |
-| --- | --- |
-| **Foundations** | Colour, design language, spacing, themes and typography. The raw material, bound to variables and styles. |
-| **Components** | Reusable building blocks assembled only from foundation tokens. |
-| **Patterns** | How components come together into real screens. This layer grows as the system develops. |
+The current release focuses on mobile-first, responsive web interfaces:
 
-## Principles
+- Colour, typography, spacing, layout, geometry, and motion foundations.
+- Five React components: Button, Input, Checkbox, Badge, and Card.
+- Default and low-fidelity presentations, each with independent light and dark appearances.
 
-- **Tokens are the source of truth.** Reference variables and styles; do not hardcode a hex value or pixel value.
-- **Prefer semantic tokens to primitive tokens.** Reach for roles such as `text/primary` and `surface/card` before raw values.
-- **Anchor to the brand guidelines.** Extend what exists instead of inventing new patterns.
-- **Use restraint.** Keep one highlighter per viewport, a minimal palette and generous neutrals.
-- **Keep documentation connected to the system.** Build each sheet from the tokens it documents so token changes flow through to the docs.
+Product patterns, native components, industry presets, and product-level theme customization are outside the current release.
 
-## Token naming
+Figma authors the design decisions; code is synchronized manually. Supported mappings and differences between Figma and code are documented in Design Token.
 
-Two layers keep token names predictable to read and query:
+## Explore the system
 
-| Layer | Examples | Use |
-| --- | --- | --- |
-| **Primitive** | `coffee/800`, `sage/500`, `space-4`, `radius-md` | Raw palette, spacing and shape values. |
-| **Semantic** | `text/primary`, `surface/card`, `brand/primary`, `feedback/error/bg` | Named roles that describe how a value is used. |
-
-Use semantic roles in components. This lets themes change the underlying values without changing the component structure.
+- [Getting Started](?path=/docs/foundation-getting-started--docs) — choose a presentation and try the components together.
+- [Design Token](?path=/docs/foundation-design-token--docs) — inspect values, typography roles, usage rules, and supported mappings.
+- [Figma library](https://www.figma.com/design/Ig6OBlF54TZEoe3D8BwwlJ/modern8-bits?node-id=3-9) — explore the authored foundations and components.

@@ -1,0 +1,51 @@
+/* Presentation is independent of appearance. Authored in Figma; manually synced. */
+:root, [data-presentation='default'] {
+  --m8-presentation-font-display: 'Space Grotesk', Arial, sans-serif;
+  --m8-presentation-font-interface: 'IBM Plex Sans', Arial, sans-serif;
+  --m8-presentation-font-detail: 'IBM Plex Mono', 'Courier New', monospace;
+  --m8-presentation-radius-card: var(--m8-radius-medium);
+}
+[data-theme] {
+  --m8-presentation-status-error: var(--m8-status-error);
+  --m8-presentation-status-success: var(--m8-status-success);
+  --m8-presentation-status-info: var(--m8-status-info);
+  --m8-presentation-status-on-error: var(--m8-status-on-error);
+  --m8-presentation-status-on-success: var(--m8-status-on-success);
+  --m8-presentation-status-on-info: var(--m8-status-on-info);
+  --m8-presentation-status-error-text: var(--m8-status-error-text);
+  --m8-presentation-status-success-text: var(--m8-status-success-text);
+  --m8-presentation-status-info-text: var(--m8-status-info-text);
+}
+[data-presentation='low-fidelity'] {
+  --m8-presentation-font-display: 'IBM Plex Sans', Arial, sans-serif;
+  --m8-presentation-font-interface: 'IBM Plex Sans', Arial, sans-serif;
+  --m8-presentation-font-detail: 'IBM Plex Sans', Arial, sans-serif;
+  --m8-presentation-radius-card: var(--m8-radius-none);
+  --m8-presentation-status-error: var(--m8-action-primary);
+  --m8-presentation-status-success: var(--m8-action-primary);
+  --m8-presentation-status-info: var(--m8-action-primary);
+  --m8-presentation-status-on-error: var(--m8-action-on-primary);
+  --m8-presentation-status-on-success: var(--m8-action-on-primary);
+  --m8-presentation-status-on-info: var(--m8-action-on-primary);
+  --m8-presentation-status-error-text: var(--m8-text-primary);
+  --m8-presentation-status-success-text: var(--m8-text-primary);
+  --m8-presentation-status-info-text: var(--m8-text-primary);
+  --m8-status-error: var(--m8-presentation-status-error);
+  --m8-status-success: var(--m8-presentation-status-success);
+  --m8-status-info: var(--m8-presentation-status-info);
+  --m8-status-on-error: var(--m8-presentation-status-on-error);
+  --m8-status-on-success: var(--m8-presentation-status-on-success);
+  --m8-status-on-info: var(--m8-presentation-status-on-info);
+  --m8-status-error-text: var(--m8-presentation-status-error-text);
+  --m8-status-success-text: var(--m8-presentation-status-success-text);
+  --m8-status-info-text: var(--m8-presentation-status-info-text);
+}
+[data-presentation='low-fidelity'] :is(.m8-button, .m8-field__label, .m8-field__input, .m8-field__message, .m8-checkbox__label, .m8-checkbox__message, .m8-badge, .m8-card__body) {
+  font-family: var(--m8-presentation-font-interface);
+  letter-spacing: 0;
+}
+[data-presentation='low-fidelity'] :is(.m8-card__title, .m8-card__eyebrow) { font-family: var(--m8-presentation-font-display); letter-spacing: 0; }
+[data-presentation='low-fidelity'] :is(.m8-card, .m8-badge, .m8-button) { box-shadow: none; border-radius: var(--m8-radius-none); }
+[data-presentation='low-fidelity'] .m8-button:not(:disabled):is(:hover, :active) { transform: none; box-shadow: none; }
+[data-presentation='low-fidelity'] .m8-button { transition: none; }
+[data-presentation='low-fidelity'] .m8-checkbox__box > span { transition: none; }

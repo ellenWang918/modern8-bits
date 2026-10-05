@@ -2,6 +2,7 @@ import React from 'react'
 import type { Preview } from '@storybook/react-vite'
 import '../src/styles/tokens.css'
 import '../src/styles/global.css'
+import '../src/styles/presentation.css'
 
 const preview: Preview = {
   parameters: {
@@ -12,6 +13,13 @@ const preview: Preview = {
         const sectionB = b.title.split('/')[0]
         const sectionDifference = sectionOrder.indexOf(sectionA) - sectionOrder.indexOf(sectionB)
         if (sectionDifference !== 0) return sectionDifference
+
+        if (sectionA === 'Foundation' && a.title !== b.title) {
+          if (a.title === 'Foundation/Overview') return -1
+          if (b.title === 'Foundation/Overview') return 1
+          if (a.title === 'Foundation/Getting Started') return -1
+          if (b.title === 'Foundation/Getting Started') return 1
+        }
 
         if (a.title === b.title && a.title === 'Component/Button') {
           const buttonOrder = ['Overview', 'Contained', 'Outline', 'Ghost', 'Disable', 'Pixel', 'Sizes', 'Icon Only']
@@ -30,6 +38,16 @@ const preview: Preview = {
     },
   },
   globalTypes: {
+    presentation: {
+      description: 'Default theme or structural prototype',
+      defaultValue: 'default',
+      toolbar: {
+        title: 'Presentation',
+        icon: 'paintbrush',
+        items: [{ value: 'default', title: 'Default theme' }, { value: 'low-fidelity', title: 'Low-fidelity' }],
+        dynamicTitle: true,
+      },
+    },
     theme: {
       description: 'Color appearance',
       defaultValue: 'light',
@@ -45,6 +63,7 @@ const preview: Preview = {
     (Story, context) => (
       <div
         data-theme={context.globals.theme}
+        data-presentation={context.globals.presentation ?? 'default'}
         style={{ minHeight: context.viewMode === 'docs' ? 'auto' : '100vh', padding: '32px' }}
       >
         <Story />

@@ -4,7 +4,9 @@
 
 modern8-bits is a cross-industry design system that pairs clean, contemporary interfaces with small, warm 8-bit cues. It should feel current and expressive without turning every screen into a retro game UI.
 
-The system is intended for fashion, sport, learning, and technology experiences. Its shared foundations stay neutral and reusable; each product can supply its own primary color and content.
+The system aims to support products across industries through neutral, reusable foundations. Prioritize people building responsive web products with coding agents, including those without design skills. The first release uses one fixed theme; industry presets and product-level theme customization are deferred.
+
+Figma is the authoring source; CSS is synchronized manually. The values below include design intent and existing code conventions that are being reconciled with Figma. See the [verified inventory](.scratch/foundations-first-release/figma-inventory.md) before treating names or values as aligned across tools.
 
 ## Design principles
 
@@ -30,7 +32,7 @@ The default foundation is monochrome. These are neutral values, not a fixed bran
 | `gray/800` | `#292929` | Raised dark surface |
 | `gray/950` | `#111111` | Dark surface |
 | `gray/1000` | `#000000` | Primary ink |
-| `brand/primary` | `#000000` | Neutral starter value; replace when a theme supplies a color |
+| `brand/primary` | `#000000` | Fixed neutral brand primitive for this release |
 
 Use semantic tokens in components and layouts instead of referencing raw palette values. Semantic roles retain their names across themes; only their values change.
 
@@ -45,32 +47,27 @@ Use semantic tokens in components and layouts instead of referencing raw palette
 | `border/default` | `gray/200` | `gray/800` |
 | `border/strong` | `gray/1000` | `gray/0` |
 | `icon/primary` | `gray/1000` | `gray/0` |
-| `action/primary` | `brand/primary` | `brand/primary` |
-| `action/on-primary` | Contrast-selected foreground | Contrast-selected foreground |
+| `action/primary` | `brand/primary` | `gray/0` |
+| `action/on-primary` | `gray/0` | `gray/1000` |
 | `action/secondary` | `gray/1000` | `gray/0` |
 | `action/on-secondary` | `gray/0` | `gray/1000` |
 
-### User-supplied primary color
+### Fixed first-release theme
 
-The theme input is `brand/primary`. It starts at black so the system works without a chosen accent. When a user supplies a primary color, the theme layer should:
+Colour mappings now match the authored Figma definitions, including dark primary actions, status foregrounds, and interaction roles.
 
-1. Accept a valid color value and expose it as the `brand/primary` primitive.
-2. Generate lighter and darker tonal values for hover, pressed, and subtle-surface roles.
-3. Select black or white for `action/on-primary` based on contrast, then report any contrast failure.
-4. Keep all other roles neutral unless the theme explicitly defines more colors.
+User-supplied primary colours, generated tones, automatic foreground selection, font customization, and geometry customization are outside the first release. Keep component colours semantic and pixel treatments optional.
 
-The authored theme color is an input. Generated tones are derived outputs, not additional brand choices. Do not hard-code a specific hue in a component.
-
-Semantic status roles such as success, warning, error, and information are reserved for functional feedback. Their theme values must remain distinguishable without relying on color alone.
+Implemented error, success, and information roles communicate functional feedback with explicit wording or another cue. Warning remains deferred.
 
 ## Themes
 
 Theme modes are independent axes:
 
 - **Appearance:** `light` or `dark` changes neutral surface, text, border, and icon values.
-- **Primary:** user-provided color, with neutral black as the starter value.
+- **Presentation:** `default` or `low-fidelity`, selected independently with `data-presentation`. Low-fidelity uses IBM Plex Sans throughout, grayscale feedback and minimal decoration while preserving hierarchy, spacing, labels, behaviour, and accessibility. See [USAGE.md](USAGE.md) and Storybook's Getting Started example.
 
-Components use the same semantic token names in both appearances. A component must not contain a separate palette for every theme. Keep the base library monochrome; optional theme packs can add product-specific colors later.
+Components use the same semantic token names in both appearances. A component must not contain a separate palette for every theme. Keep everyday surfaces neutral and reserve functional colours for feedback. Product-level theme settings are deferred.
 
 ## Layout foundations
 
@@ -123,18 +120,28 @@ Use three complementary type roles:
 
 IBM Plex Sans is a proportional sans-serif. IBM Plex Mono is the monospaced companion for fixed-width text. Use mono sparingly so it reads as a deliberate 8-bit cue rather than the default voice of the whole interface.
 
-| Token | Family | Size | Weight | Line height | Use |
-| --- | --- | ---: | ---: | ---: | --- |
-| `type/display/xl` | Space Grotesk | `64px` | `500` | `1.05` | Hero headline |
-| `type/display/lg` | Space Grotesk | `48px` | `500` | `1.08` | Editorial section heading |
-| `type/heading/lg` | IBM Plex Sans | `32px` | `600` | `1.2` | Page or panel heading |
-| `type/heading/md` | IBM Plex Sans | `24px` | `600` | `1.25` | Card heading |
-| `type/body/lg` | IBM Plex Sans | `18px` | `400` | `1.5` | Lead copy |
-| `type/body/md` | IBM Plex Sans | `16px` | `400` | `1.5` | Default body |
-| `type/body/sm` | IBM Plex Sans | `14px` | `400` | `1.4` | Supporting copy |
-| `type/label/mono` | IBM Plex Mono | `12px` | `500` | `1.35` | Metadata and pixel details |
+| Figma text style | Family | Size / line height | Weight | Tracking |
+| --- | --- | --- | ---: | ---: |
+| `display/hero` | Space Grotesk | 72/78px | 700 | -2px |
+| `display/large` | Space Grotesk | 48/54px | 700 | -1px |
+| `heading/section` | Space Grotesk | 32/38px | 500 | -0.4px |
+| `heading/card` | Space Grotesk | 24/30px | 500 | 0px |
+| `body/large` | IBM Plex Sans | 18/28px | 400 | 0px |
+| `body/base` | IBM Plex Sans | 16/24px | 400 | 0px |
+| `body/small` | IBM Plex Sans | 14/20px | 400 | 0px |
+| `utility/label` | IBM Plex Mono | 12/16px | 500 | 1.2px |
+| `utility/micro` | IBM Plex Mono | 10/14px | 400 | 1px |
+| `button/label/sm` | IBM Plex Sans | 12/16px | 500 | 0px |
+| `button/label/md` | IBM Plex Sans | 14/16px | 500 | 0px |
+| `button/label/lg` | IBM Plex Sans | 16/24px | 500 | 0px |
+| `display/hero/mobile` | Space Grotesk | 48/54px | 700 | -1px |
+| `display/large/mobile` | Space Grotesk | 32/38px | 700 | -0.4px |
+| `heading/section/mobile` | Space Grotesk | 28/34px | 500 | -0.2px |
+| `ui/label` | IBM Plex Sans | 14/20px | 500 | 0px |
 
-Display sizes should scale down on small screens. Preserve readable body sizes, use weight and spacing to create hierarchy, and avoid long passages in monospace.
+Figma text-style paths are authoritative. CSS bundles use `--m8-type-` plus the style path: `body/base` maps to `--m8-type-body-base-font` with companion family, size, weight, line-height, and tracking properties. Below 672px, the three `/mobile` styles override their base display/heading roles. Body and controls retain their size. Fonts fall back to Arial or Courier New, so line wrapping can differ.
+
+Button visible heights are 32/40/48px. Code Input uses the medium 44px field and Checkbox the medium 20px box. Default Card uses authored 24px padding, 32px content gap, and 8px radius; pixel Card keeps crisp corners. Ordinary UI labels use Sans; Mono remains for metadata and pixel accents. See the Design Token page for supported subsets and Figma/API differences.
 
 ## Motion
 
@@ -153,11 +160,13 @@ Use standard easing for state changes, entrance easing for elements entering the
 
 ## Token naming
 
+Follow the repository's [token rules](TOKEN-RULE.md) when adding, renaming, or changing tokens. This section summarizes the naming convention; the rule defines token layers, theme behavior, state naming, and change management.
+
 Names describe a token's role, not its current color or visual value. Keep names stable across themes.
 
 - **Primitives:** `gray/100`, `brand/primary`, `space/4`, `radius/small`.
 - **Semantic colors:** `background/canvas`, `text/primary`, `border/default`, `action/primary`.
-- **Typography:** `type/display/xl`, `type/body/md`, `type/label/mono`.
+- **Typography:** `display/hero`, `body/base`, `utility/label`.
 - **Motion:** `motion/duration/fast-01`, `motion/easing/standard`.
 - **Component-specific tokens:** add a component prefix only when a role is unique to that component, such as `button/primary/background`.
 

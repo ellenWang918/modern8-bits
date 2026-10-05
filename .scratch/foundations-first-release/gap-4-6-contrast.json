@@ -1,0 +1,172 @@
+[
+  {
+    "mode": "Light",
+    "pair": "status/error + status/on-error",
+    "ratio": 6.477143294275617
+  },
+  {
+    "mode": "Light",
+    "pair": "status/error/text on background/canvas",
+    "ratio": 6.477143294275617
+  },
+  {
+    "mode": "Light",
+    "pair": "status/error/text on background/surface",
+    "ratio": 6.046017594260091
+  },
+  {
+    "mode": "Light",
+    "pair": "status/error/text on background/raised",
+    "ratio": 6.477143294275617
+  },
+  {
+    "mode": "Light",
+    "pair": "status/success + status/on-success",
+    "ratio": 7.775035972177889
+  },
+  {
+    "mode": "Light",
+    "pair": "status/success/text on background/canvas",
+    "ratio": 7.775035972177889
+  },
+  {
+    "mode": "Light",
+    "pair": "status/success/text on background/surface",
+    "ratio": 7.257521124372446
+  },
+  {
+    "mode": "Light",
+    "pair": "status/success/text on background/raised",
+    "ratio": 7.775035972177889
+  },
+  {
+    "mode": "Light",
+    "pair": "status/info + status/on-info",
+    "ratio": 6.386238271761161
+  },
+  {
+    "mode": "Light",
+    "pair": "status/info/text on background/canvas",
+    "ratio": 6.386238271761161
+  },
+  {
+    "mode": "Light",
+    "pair": "status/info/text on background/surface",
+    "ratio": 5.961163308881727
+  },
+  {
+    "mode": "Light",
+    "pair": "status/info/text on background/raised",
+    "ratio": 6.386238271761161
+  },
+  {
+    "mode": "Light",
+    "pair": "action/primary + action/on-primary",
+    "ratio": 21
+  },
+  {
+    "mode": "Light",
+    "pair": "action/primary/hover + action/on-primary",
+    "ratio": 14.548198465495398
+  },
+  {
+    "mode": "Light",
+    "pair": "action/primary/pressed + action/on-primary",
+    "ratio": 18.883060964594996
+  },
+  {
+    "mode": "Light",
+    "pair": "action/subtle/hover + text/primary",
+    "ratio": 18.099852162484677
+  },
+  {
+    "mode": "Light",
+    "pair": "action/subtle/pressed + text/primary",
+    "ratio": 14.44886313915375
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/error + status/on-error",
+    "ratio": 9.769458457321871
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/error/text on background/canvas",
+    "ratio": 15.904088331854119
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/error/text on background/surface",
+    "ratio": 14.300850931271679
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/error/text on background/raised",
+    "ratio": 11.017896831646826
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/success + status/on-success",
+    "ratio": 8.986245804446298
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/success/text on background/canvas",
+    "ratio": 15.612366708739355
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/success/text on background/surface",
+    "ratio": 14.038536779178028
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/success/text on background/raised",
+    "ratio": 10.815800447373014
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/info + status/on-info",
+    "ratio": 9.295503779707982
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/info/text on background/canvas",
+    "ratio": 15.975622100277809
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/info/text on background/surface",
+    "ratio": 14.365173622232238
+  },
+  {
+    "mode": "Dark",
+    "pair": "status/info/text on background/raised",
+    "ratio": 11.067453377361712
+  },
+  {
+    "mode": "Dark",
+    "pair": "action/primary + action/on-primary",
+    "ratio": 21
+  },
+  {
+    "mode": "Dark",
+    "pair": "action/primary/hover + action/on-primary",
+    "ratio": 18.099852162484677
+  },
+  {
+    "mode": "Dark",
+    "pair": "action/primary/pressed + action/on-primary",
+    "ratio": 14.44886313915375
+  },
+  {
+    "mode": "Dark",
+    "pair": "action/subtle/hover + text/primary",
+    "ratio": 14.548198465495398
+  },
+  {
+    "mode": "Dark",
+    "pair": "action/subtle/pressed + text/primary",
+    "ratio": 5.74183648145415
+  }
+]

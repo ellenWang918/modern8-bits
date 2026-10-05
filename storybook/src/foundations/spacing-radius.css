@@ -153,7 +153,7 @@
   flex: 0 0 90px;
   transform: translateX(-100%);
   padding-right: 8px;
-  color: var(--m8-techno);
+  color: var(--m8-text-secondary);
   text-align: right;
   font: 500 10px/14px var(--m8-type-mono);
 }

@@ -1,0 +1,558 @@
+{
+  "runId": "gap-4-6-2026-10-04",
+  "scope": "colour reconciliation",
+  "step": "completed-and-validated",
+  "createdVariableIds": [
+    "VariableID:141:2",
+    "VariableID:141:3",
+    "VariableID:141:4",
+    "VariableID:141:5",
+    "VariableID:141:6",
+    "VariableID:141:7",
+    "VariableID:141:8",
+    "VariableID:141:9",
+    "VariableID:141:10",
+    "VariableID:141:11",
+    "VariableID:141:12",
+    "VariableID:141:13",
+    "VariableID:141:14",
+    "VariableID:141:15",
+    "VariableID:141:16",
+    "VariableID:141:17",
+    "VariableID:141:18",
+    "VariableID:141:19",
+    "VariableID:141:20",
+    "VariableID:141:21",
+    "VariableID:141:22",
+    "VariableID:141:23",
+    "VariableID:141:24",
+    "VariableID:141:25",
+    "VariableID:141:26",
+    "VariableID:141:27",
+    "VariableID:141:28",
+    "VariableID:141:29",
+    "VariableID:141:30"
+  ],
+  "mutatedVariableIds": [
+    "VariableID:58:2",
+    "VariableID:58:10",
+    "VariableID:58:11",
+    "VariableID:58:16",
+    "VariableID:73:16",
+    "VariableID:73:17",
+    "VariableID:73:20",
+    "VariableID:116:776",
+    "VariableID:73:24",
+    "VariableID:116:777",
+    "VariableID:39:16",
+    "VariableID:73:14",
+    "VariableID:39:13",
+    "VariableID:73:12"
+  ],
+  "variableCount": 86,
+  "rawSemanticOrComponentColours": [],
+  "renames": [
+    {
+      "old": "chip/outline/grey",
+      "name": "chip/neutral/background",
+      "id": "VariableID:58:2"
+    },
+    {
+      "old": "chip/contained/dark",
+      "name": "chip/strong/background",
+      "id": "VariableID:58:10"
+    },
+    {
+      "old": "chip/dark",
+      "name": "chip/strong/foreground",
+      "id": "VariableID:58:11"
+    },
+    {
+      "old": "chip/outline/outline",
+      "name": "chip/outline/background",
+      "id": "VariableID:58:16"
+    }
+  ],
+  "definitions": [
+    {
+      "name": "background/subtle",
+      "id": "VariableID:141:16",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:12"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:13"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "background/contrast",
+      "id": "VariableID:141:17",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:14"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:11"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "text/on-contrast",
+      "id": "VariableID:141:18",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:3"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:15"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "background/outlined",
+      "id": "VariableID:141:19",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:3"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:3"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "chip/neutral/foreground",
+      "id": "VariableID:141:20",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:12"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:12"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "action/primary/hover",
+      "id": "VariableID:141:21",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:8"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:4"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "action/primary/pressed",
+      "id": "VariableID:141:22",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:3"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:5"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "action/subtle/hover",
+      "id": "VariableID:141:23",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:4"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:8"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "action/subtle/pressed",
+      "id": "VariableID:141:24",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:5"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:7"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "action/selected",
+      "id": "VariableID:141:25",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:10"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:10"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "action/on-selected",
+      "id": "VariableID:141:26",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:13"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:13"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "border/selected",
+      "id": "VariableID:141:27",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:25"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:25"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "name": "status/error",
+      "id": "VariableID:73:16",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:3"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:4"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "status/on-error",
+      "id": "VariableID:73:17",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:3"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:2"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "status/error/text",
+      "id": "VariableID:141:28",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:3"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:2"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "name": "status/success",
+      "id": "VariableID:73:20",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:6"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:7"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "status/on-success",
+      "id": "VariableID:116:776",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:3"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:5"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "status/success/text",
+      "id": "VariableID:141:29",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:6"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:5"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "name": "status/info",
+      "id": "VariableID:73:24",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:9"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:10"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "status/on-info",
+      "id": "VariableID:116:777",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:3"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:8"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "status/info/text",
+      "id": "VariableID:141:30",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:9"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:8"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "name": "chip/neutral/background",
+      "id": "VariableID:58:2",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:16"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:16"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "chip/strong/background",
+      "id": "VariableID:58:10",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:17"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:17"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "name": "chip/strong/foreground",
+      "id": "VariableID:58:11",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:18"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:18"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "name": "chip/outline/background",
+      "id": "VariableID:58:16",
+      "values": {
+        "29:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:19"
+        },
+        "29:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:19"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL"
+      ]
+    }
+  ],
+  "resultFile": "gap-4-6-result.md",
+  "documentationNodeIds": [
+    "141:74",
+    "141:75",
+    "141:76",
+    "141:77",
+    "141:78",
+    "141:79",
+    "141:83",
+    "141:87",
+    "141:91",
+    "141:95",
+    "141:99",
+    "141:103",
+    "141:107",
+    "141:111",
+    "141:115",
+    "141:119",
+    "111:504",
+    "109:176",
+    "74:2"
+  ],
+  "reconciledComponentSets": [
+    "44:2",
+    "44:3",
+    "81:66",
+    "81:107"
+  ]
+}

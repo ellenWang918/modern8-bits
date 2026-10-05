@@ -1,0 +1,338 @@
+{
+  "boardId": "160:16",
+  "laterCreatedNodeIds": ["164:137", "164:138", "164:139", "164:140"],
+  "finalBounds": {"width": 1440, "height": 1842.4000244140625},
+  "finalReview": {"checkboxCheckmarksRestored": true, "badgesMatchCodeTreatment": true, "inputWidths": 544, "checkboxDescriptionGap": 4, "darkForegrounds": true},
+  "createdNodeIds": [
+    "160:16",
+    "160:17",
+    "160:18",
+    "160:19",
+    "160:20",
+    "160:21",
+    "160:22",
+    "160:23",
+    "160:24",
+    "160:25",
+    "160:26",
+    "160:27",
+    "160:28",
+    "160:29",
+    "160:30",
+    "160:31",
+    "160:32",
+    "160:33",
+    "I160:33;81:27",
+    "I160:33;81:28",
+    "I160:33;81:29",
+    "I160:33;81:30",
+    "160:38",
+    "I160:38;81:93",
+    "I160:38;81:94",
+    "I160:38;81:95",
+    "160:42",
+    "160:43",
+    "160:44",
+    "I160:44;43:27",
+    "I160:44;43:28",
+    "160:47",
+    "I160:47;43:36",
+    "I160:47;43:37",
+    "160:50",
+    "160:51",
+    "160:52",
+    "160:53",
+    "160:54",
+    "160:55",
+    "160:56",
+    "160:57",
+    "160:58",
+    "160:59",
+    "160:60",
+    "160:61",
+    "160:62",
+    "160:63",
+    "160:64",
+    "I160:64;81:27",
+    "I160:64;81:28",
+    "I160:64;81:29",
+    "I160:64;81:30",
+    "160:69",
+    "I160:69;81:93",
+    "I160:69;81:94",
+    "I160:69;81:95",
+    "160:73",
+    "160:74",
+    "160:75",
+    "I160:75;43:27",
+    "I160:75;43:28",
+    "160:78",
+    "I160:78;43:36",
+    "I160:78;43:37",
+    "160:81",
+    "160:82",
+    "160:83",
+    "160:84",
+    "160:85",
+    "160:86",
+    "160:87",
+    "160:88",
+    "160:89",
+    "160:90",
+    "160:91",
+    "160:92",
+    "160:93",
+    "160:94",
+    "160:95",
+    "160:96",
+    "I160:96;81:27",
+    "I160:96;81:28",
+    "I160:96;81:29",
+    "I160:96;81:30",
+    "160:101",
+    "I160:101;81:93",
+    "I160:101;81:94",
+    "I160:101;81:95",
+    "160:105",
+    "160:106",
+    "160:107",
+    "I160:107;43:27",
+    "I160:107;43:28",
+    "160:110",
+    "I160:110;43:36",
+    "I160:110;43:37",
+    "160:113",
+    "160:114",
+    "160:115",
+    "160:116",
+    "160:117",
+    "160:118",
+    "160:119",
+    "160:120",
+    "160:121",
+    "160:122",
+    "160:123",
+    "160:124",
+    "160:125",
+    "160:126",
+    "160:127",
+    "I160:127;81:27",
+    "I160:127;81:28",
+    "I160:127;81:29",
+    "I160:127;81:30",
+    "160:132",
+    "I160:132;81:93",
+    "I160:132;81:94",
+    "I160:132;81:95",
+    "160:136",
+    "160:137",
+    "160:138",
+    "I160:138;43:27",
+    "I160:138;43:28",
+    "160:141",
+    "I160:141;43:36",
+    "I160:141;43:37",
+    "160:144",
+    "160:145",
+    "160:146",
+    "160:147"
+  ],
+  "collectionId": "VariableCollectionId:160:2",
+  "variables": [
+    {
+      "id": "VariableID:160:3",
+      "name": "presentation/font/display",
+      "type": "STRING",
+      "description": "Presentation family; keep typography size, weight, line height, hierarchy and content unchanged. Appearance is independent.",
+      "valuesByMode": {
+        "160:0": "Space Grotesk",
+        "160:1": "IBM Plex Sans"
+      }
+    },
+    {
+      "id": "VariableID:160:4",
+      "name": "presentation/font/interface",
+      "type": "STRING",
+      "description": "Presentation family; keep typography size, weight, line height, hierarchy and content unchanged. Appearance is independent.",
+      "valuesByMode": {
+        "160:0": "IBM Plex Sans",
+        "160:1": "IBM Plex Sans"
+      }
+    },
+    {
+      "id": "VariableID:160:5",
+      "name": "presentation/font/detail",
+      "type": "STRING",
+      "description": "Presentation family; keep typography size, weight, line height, hierarchy and content unchanged. Appearance is independent.",
+      "valuesByMode": {
+        "160:0": "IBM Plex Mono",
+        "160:1": "IBM Plex Sans"
+      }
+    },
+    {
+      "id": "VariableID:160:6",
+      "name": "presentation/radius/card",
+      "type": "FLOAT",
+      "description": "Card geometry: default rounded; low-fidelity crisp. Keep spacing and structure unchanged.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:24:13"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:10"
+        }
+      }
+    },
+    {
+      "id": "VariableID:160:7",
+      "name": "presentation/status/error",
+      "type": "COLOR",
+      "description": "Feedback fill: semantic colour in Default, neutral primary in Low-fidelity. Pair with on-error and an explicit status label.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:16"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:10"
+        }
+      }
+    },
+    {
+      "id": "VariableID:160:8",
+      "name": "presentation/status/on-error",
+      "type": "COLOR",
+      "description": "Foreground paired with presentation/status/error. Always communicate status in words.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:17"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:13"
+        }
+      }
+    },
+    {
+      "id": "VariableID:160:9",
+      "name": "presentation/status/error/text",
+      "type": "COLOR",
+      "description": "Inline feedback text; low-fidelity uses neutral text. Keep the Error/Success/Info label.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:28"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:12"
+        }
+      }
+    },
+    {
+      "id": "VariableID:160:10",
+      "name": "presentation/status/success",
+      "type": "COLOR",
+      "description": "Feedback fill: semantic colour in Default, neutral primary in Low-fidelity. Pair with on-success and an explicit status label.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:20"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:10"
+        }
+      }
+    },
+    {
+      "id": "VariableID:160:11",
+      "name": "presentation/status/on-success",
+      "type": "COLOR",
+      "description": "Foreground paired with presentation/status/success. Always communicate status in words.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:116:776"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:13"
+        }
+      }
+    },
+    {
+      "id": "VariableID:160:12",
+      "name": "presentation/status/success/text",
+      "type": "COLOR",
+      "description": "Inline feedback text; low-fidelity uses neutral text. Keep the Error/Success/Info label.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:29"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:12"
+        }
+      }
+    },
+    {
+      "id": "VariableID:160:13",
+      "name": "presentation/status/info",
+      "type": "COLOR",
+      "description": "Feedback fill: semantic colour in Default, neutral primary in Low-fidelity. Pair with on-info and an explicit status label.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:24"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:73:10"
+        }
+      }
+    },
+    {
+      "id": "VariableID:160:14",
+      "name": "presentation/status/on-info",
+      "type": "COLOR",
+      "description": "Foreground paired with presentation/status/info. Always communicate status in words.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:116:777"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:13"
+        }
+      }
+    },
+    {
+      "id": "VariableID:160:15",
+      "name": "presentation/status/info/text",
+      "type": "COLOR",
+      "description": "Inline feedback text; low-fidelity uses neutral text. Keep the Error/Success/Info label.",
+      "valuesByMode": {
+        "160:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:141:30"
+        },
+        "160:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:39:12"
+        }
+      }
+    }
+  ],
+  "bounds": {
+    "width": 1440,
+    "height": 1882.4000244140625
+  },
+  "totalVariables": 119
+}

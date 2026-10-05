@@ -1,0 +1,931 @@
+{
+  "step": "completed-and-validated",
+  "mutation": {
+    "mutatedVariableIds": [
+      "VariableID:24:7",
+      "VariableID:24:8",
+      "VariableID:24:9",
+      "VariableID:24:10",
+      "VariableID:24:12",
+      "VariableID:24:13",
+      "VariableID:24:3",
+      "VariableID:24:4",
+      "VariableID:24:5",
+      "VariableID:24:6",
+      "VariableID:27:315",
+      "VariableID:27:326",
+      "VariableID:39:10",
+      "VariableID:41:2",
+      "VariableID:41:3",
+      "VariableID:41:4",
+      "VariableID:41:5"
+    ],
+    "createdVariableIds": [
+      "VariableID:148:2",
+      "VariableID:148:3",
+      "VariableID:148:4",
+      "VariableID:148:5",
+      "VariableID:148:6",
+      "VariableID:148:7",
+      "VariableID:148:8",
+      "VariableID:148:9",
+      "VariableID:148:10",
+      "VariableID:148:11",
+      "VariableID:148:12",
+      "VariableID:148:13",
+      "VariableID:148:14",
+      "VariableID:148:15",
+      "VariableID:148:16",
+      "VariableID:148:17",
+      "VariableID:148:18",
+      "VariableID:148:19"
+    ],
+    "mutatedStyleIds": [
+      "S:d0e8989a13a5274548c8515520522614e702e8b6,",
+      "S:67f61ce14a644ccce943acc457b174d724e6485d,",
+      "S:33fa9be5cd301cc66261817a91af4346b5c3aefd,"
+    ],
+    "createdStyleIds": [
+      "S:d802e4b4b1e8bdc3ac08c7cfcc51ca53c7243ea6,",
+      "S:7de319c4e06a51c6a7564ae4fa660498da65c0bc,",
+      "S:f07e61c9b42e57c1944d5a4a949795127571daa5,",
+      "S:f19c02d9c3f74467c923ec6dd736b8803de8173d,"
+    ],
+    "renames": [
+      [
+        "space/5",
+        "space/6"
+      ],
+      [
+        "space/6",
+        "space/8"
+      ],
+      [
+        "space/7",
+        "space/12"
+      ],
+      [
+        "space/8",
+        "space/20"
+      ],
+      [
+        "radius/sm",
+        "radius/small"
+      ],
+      [
+        "radius/md",
+        "radius/medium"
+      ]
+    ],
+    "definitionCount": 104,
+    "textStyleCount": 16
+  },
+  "snapshot": {
+    "variables": [
+      {
+        "name": "space/1",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared spacing: 4px. Names use multiples of 4px; Figma and CSS match. Use for padding, gaps, and layout rhythm.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "4",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "space/2",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared spacing: 8px. Names use multiples of 4px; Figma and CSS match. Use for padding, gaps, and layout rhythm.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "8",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "space/3",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared spacing: 12px. Names use multiples of 4px; Figma and CSS match. Use for padding, gaps, and layout rhythm.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "12",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "space/4",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared spacing: 16px. Names use multiples of 4px; Figma and CSS match. Use for padding, gaps, and layout rhythm.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "16",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "space/6",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared spacing: 24px. Names use multiples of 4px; Figma and CSS match. Use for padding, gaps, and layout rhythm.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "24",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "space/8",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared spacing: 32px. Names use multiples of 4px; Figma and CSS match. Use for padding, gaps, and layout rhythm.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "32",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "space/12",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared spacing: 48px. Names use multiples of 4px; Figma and CSS match. Use for padding, gaps, and layout rhythm.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "48",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "space/20",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared spacing: 80px. Names use multiples of 4px; Figma and CSS match. Use for padding, gaps, and layout rhythm.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "80",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "radius/small",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared corner radius. Figma/CSS names and values agree. Choose by shape intent; radius/none is the crisp default.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "4",
+            "reference": "space/1"
+          }
+        ]
+      },
+      {
+        "name": "radius/medium",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared corner radius. Figma/CSS names and values agree. Choose by shape intent; radius/none is the crisp default.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "8",
+            "reference": "space/2"
+          }
+        ]
+      },
+      {
+        "name": "radius/lg",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared corner radius. Figma/CSS names and values agree. Choose by shape intent; radius/none is the crisp default.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "12",
+            "reference": "space/3"
+          }
+        ]
+      },
+      {
+        "name": "radius/full",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared corner radius. Figma/CSS names and values agree. Choose by shape intent; radius/none is the crisp default.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "9999",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "radius/none",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Shared corner radius. Figma/CSS names and values agree. Choose by shape intent; radius/none is the crisp default.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "0",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "stroke/hairline",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Primitive stroke width. 1px for quiet borders and separators. Colour comes from a border role. Focus and pixel emphasis may need different widths.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "1",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "button/height/sm",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Authored visible button height: 32px. CSS matches. Compact sizes require adequate target spacing; use large 48px controls for touch-heavy interfaces.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "32",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "button/height/md",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Authored visible button height: 40px. CSS matches. Compact sizes require adequate target spacing; use large 48px controls for touch-heavy interfaces.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "40",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "button/height/lg",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Authored visible button height: 48px. CSS matches. Compact sizes require adequate target spacing; use large 48px controls for touch-heavy interfaces.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "48",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "stroke/pixel",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Pixel emphasis and focus outlines, in px.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "2",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "input/height/sm",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Text Field small visible input height, in px.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "36",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "input/height/md",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Text Field medium visible input height; code Input uses this supported size.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "44",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "input/height/lg",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Text Field large visible input height, in px.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "52",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "checkbox/size/sm",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Small checkbox box size, in px.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "18",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "checkbox/size/md",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Medium checkbox box size; code Checkbox uses this supported size.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "20",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "layout/breakpoint/medium",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Medium viewport starts at 672px. CSS media queries use this literal; custom properties cannot be used directly in media query conditions.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "672",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "layout/breakpoint/large",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Large viewport starts at 1056px. CSS media queries use this literal.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "1056",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "layout/gutter/small",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Small viewport outer gutter, in px.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "16",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "layout/gutter/medium",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Medium viewport outer gutter, in px.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "24",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "layout/gutter/large",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Large viewport outer gutter, in px.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "32",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "layout/content/max",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Maximum ordinary content width, in px.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "1440",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "motion/duration/fast-01",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Duration in milliseconds; CSS adds ms. Respect reduced-motion preference.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "70",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "motion/duration/fast-02",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Duration in milliseconds; CSS adds ms. Respect reduced-motion preference.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "110",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "motion/duration/moderate-01",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Duration in milliseconds; CSS adds ms. Respect reduced-motion preference.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "150",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "motion/duration/moderate-02",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Duration in milliseconds; CSS adds ms. Respect reduced-motion preference.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "240",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "motion/duration/slow-01",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Duration in milliseconds; CSS adds ms. Respect reduced-motion preference.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "400",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "motion/duration/slow-02",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Duration in milliseconds; CSS adds ms. Respect reduced-motion preference.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "700",
+            "reference": null
+          }
+        ]
+      }
+    ],
+    "styles": [
+      {
+        "name": "display/hero",
+        "id": "S:d8878b4ea8b137da9c2dc4e16f47a1bf977d1bf8,",
+        "family": "Space Grotesk",
+        "weight": 700,
+        "size": 72,
+        "line": 78,
+        "tracking": -2
+      },
+      {
+        "name": "display/large",
+        "id": "S:b13afdb565f29663ec7065c7bfe998f8acb32325,",
+        "family": "Space Grotesk",
+        "weight": 700,
+        "size": 48,
+        "line": 54,
+        "tracking": -1
+      },
+      {
+        "name": "heading/section",
+        "id": "S:432d7a3b949ffd3cbeabab37e8ac24296cf4caea,",
+        "family": "Space Grotesk",
+        "weight": 500,
+        "size": 32,
+        "line": 38,
+        "tracking": -0.4000000059604645
+      },
+      {
+        "name": "heading/card",
+        "id": "S:de9108e47173f360710bd6326b01ce639abdcd8f,",
+        "family": "Space Grotesk",
+        "weight": 500,
+        "size": 24,
+        "line": 30,
+        "tracking": 0
+      },
+      {
+        "name": "body/large",
+        "id": "S:a0d278d5142392127d0037bd198261e2251ea9ba,",
+        "family": "IBM Plex Sans",
+        "weight": 400,
+        "size": 18,
+        "line": 28,
+        "tracking": 0
+      },
+      {
+        "name": "body/base",
+        "id": "S:4105bee2f0e6da2b5960e97a3a071e9d8a6aa3f0,",
+        "family": "IBM Plex Sans",
+        "weight": 400,
+        "size": 16,
+        "line": 24,
+        "tracking": 0
+      },
+      {
+        "name": "body/small",
+        "id": "S:1b907510cc6d8d3b363ae4c0f42a1f4b00375405,",
+        "family": "IBM Plex Sans",
+        "weight": 400,
+        "size": 14,
+        "line": 20,
+        "tracking": 0
+      },
+      {
+        "name": "utility/label",
+        "id": "S:dc9731f75b65fde462a093ef4ff8a9702801f80d,",
+        "family": "IBM Plex Mono",
+        "weight": 500,
+        "size": 12,
+        "line": 16,
+        "tracking": 1.2000000476837158
+      },
+      {
+        "name": "utility/micro",
+        "id": "S:97f05c7873ac7e4552ad46d149db27b96f5ff87e,",
+        "family": "IBM Plex Mono",
+        "weight": 400,
+        "size": 10,
+        "line": 14,
+        "tracking": 1
+      },
+      {
+        "name": "button/label/sm",
+        "id": "S:d0e8989a13a5274548c8515520522614e702e8b6,",
+        "family": "IBM Plex Sans",
+        "weight": 500,
+        "size": 12,
+        "line": 16,
+        "tracking": 0
+      },
+      {
+        "name": "button/label/md",
+        "id": "S:67f61ce14a644ccce943acc457b174d724e6485d,",
+        "family": "IBM Plex Sans",
+        "weight": 500,
+        "size": 14,
+        "line": 16,
+        "tracking": 0
+      },
+      {
+        "name": "button/label/lg",
+        "id": "S:33fa9be5cd301cc66261817a91af4346b5c3aefd,",
+        "family": "IBM Plex Sans",
+        "weight": 500,
+        "size": 16,
+        "line": 24,
+        "tracking": 0
+      },
+      {
+        "name": "display/hero/mobile",
+        "id": "S:d802e4b4b1e8bdc3ac08c7cfcc51ca53c7243ea6,",
+        "family": "Space Grotesk",
+        "weight": 700,
+        "size": 48,
+        "line": 54,
+        "tracking": -1
+      },
+      {
+        "name": "display/large/mobile",
+        "id": "S:7de319c4e06a51c6a7564ae4fa660498da65c0bc,",
+        "family": "Space Grotesk",
+        "weight": 700,
+        "size": 32,
+        "line": 38,
+        "tracking": -0.4000000059604645
+      },
+      {
+        "name": "heading/section/mobile",
+        "id": "S:f07e61c9b42e57c1944d5a4a949795127571daa5,",
+        "family": "Space Grotesk",
+        "weight": 500,
+        "size": 28,
+        "line": 34,
+        "tracking": -0.20000000298023224
+      },
+      {
+        "name": "ui/label",
+        "id": "S:f19c02d9c3f74467c923ec6dd736b8803de8173d,",
+        "family": "IBM Plex Sans",
+        "weight": 500,
+        "size": 14,
+        "line": 20,
+        "tracking": 0
+      }
+    ]
+  },
+  "completedDate": "2026-10-05",
+  "finalEvidence": {
+    "count": 106,
+    "styleCount": 16,
+    "documentationNodeIds": [
+      "153:2",
+      "153:3",
+      "153:4",
+      "153:5",
+      "153:6",
+      "153:7",
+      "153:8",
+      "153:9",
+      "153:10",
+      "153:11",
+      "153:12",
+      "153:13",
+      "153:14",
+      "153:15",
+      "153:16",
+      "153:17",
+      "153:18",
+      "153:19",
+      "153:20",
+      "153:21",
+      "153:22",
+      "153:23",
+      "153:24",
+      "153:25",
+      "153:26",
+      "153:27",
+      "153:28",
+      "153:29",
+      "153:30",
+      "153:31",
+      "153:32",
+      "153:33",
+      "153:34",
+      "153:35",
+      "153:36",
+      "153:37",
+      "153:38",
+      "153:39",
+      "153:40",
+      "153:41",
+      "153:42",
+      "153:43",
+      "153:44",
+      "153:45",
+      "153:46",
+      "153:47",
+      "153:48",
+      "153:49",
+      "153:50",
+      "153:51",
+      "153:52",
+      "153:53",
+      "153:54",
+      "153:55",
+      "153:56",
+      "153:57",
+      "153:58",
+      "153:59",
+      "153:60",
+      "153:61",
+      "153:62",
+      "153:63",
+      "153:64",
+      "153:65",
+      "153:66",
+      "153:67",
+      "153:68",
+      "153:69",
+      "153:70",
+      "153:71",
+      "153:72"
+    ],
+    "bounds": {
+      "width": 1440,
+      "height": 2524
+    }
+  },
+  "optical": {
+    "createdVariableIds": [
+      "VariableID:155:2",
+      "VariableID:155:3"
+    ],
+    "mutatedNodeIds": [
+      "81:26",
+      "81:28",
+      "81:31",
+      "81:33",
+      "81:36",
+      "81:38",
+      "81:41",
+      "81:43"
+    ],
+    "definitions": [
+      {
+        "name": "input/padding-inline/md",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Authored medium Text Field optical horizontal inset in px. Component-specific exception to the shared 4px spacing scale; CSS Input uses the same definition.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "14px",
+            "reference": null
+          }
+        ]
+      },
+      {
+        "name": "input/gap/md",
+        "type": "FLOAT",
+        "collection": "Spacing & Radius",
+        "description": "Authored medium Text Field optical label/supporting-copy gap in px. Component-specific exception to the shared 4px spacing scale; CSS Input uses the same definition.",
+        "values": [
+          {
+            "mode": "Default",
+            "value": "6px",
+            "reference": null
+          }
+        ]
+      }
+    ]
+  },
+  "components": {
+    "36:486": {
+      "mutatedNodeIds": [
+        "43:3",
+        "43:6",
+        "118:243",
+        "43:9",
+        "118:246",
+        "43:12",
+        "43:15",
+        "43:18",
+        "43:21",
+        "43:24",
+        "43:27",
+        "43:30",
+        "43:33",
+        "116:1169",
+        "43:36",
+        "118:233",
+        "44:2",
+        "44:3"
+      ]
+    },
+    "36:487": {
+      "mutatedNodeIds": [
+        "81:7",
+        "81:9",
+        "81:10",
+        "81:8",
+        "81:12",
+        "81:14",
+        "81:15",
+        "81:13",
+        "81:17",
+        "81:19",
+        "81:20",
+        "81:18",
+        "81:22",
+        "81:24",
+        "81:25",
+        "81:23",
+        "81:27",
+        "81:29",
+        "81:30",
+        "81:28",
+        "81:32",
+        "81:34",
+        "81:35",
+        "81:33",
+        "81:37",
+        "81:39",
+        "81:40",
+        "81:38",
+        "81:42",
+        "81:44",
+        "81:45",
+        "81:43",
+        "81:47",
+        "81:49",
+        "81:50",
+        "81:48",
+        "81:52",
+        "81:54",
+        "81:55",
+        "81:53",
+        "81:57",
+        "81:59",
+        "81:60",
+        "81:58",
+        "81:62",
+        "81:64",
+        "81:65",
+        "81:63",
+        "81:66"
+      ]
+    },
+    "75:707": {
+      "mutatedNodeIds": [
+        "81:73",
+        "81:72",
+        "81:76",
+        "81:77",
+        "81:75",
+        "81:80",
+        "81:81",
+        "81:79",
+        "81:84",
+        "81:83",
+        "81:87",
+        "81:88",
+        "81:86",
+        "81:91",
+        "81:90",
+        "81:94",
+        "81:95",
+        "81:93",
+        "81:98",
+        "81:99",
+        "81:97",
+        "81:102",
+        "81:101",
+        "81:105",
+        "81:106",
+        "81:104",
+        "81:107"
+      ]
+    },
+    "36:489": {
+      "mutatedNodeIds": [
+        "65:10",
+        "65:11",
+        "65:14",
+        "65:5",
+        "65:38"
+      ]
+    }
+  }
+}

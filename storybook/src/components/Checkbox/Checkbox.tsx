@@ -1,4 +1,4 @@
-import type { InputHTMLAttributes } from 'react'
+import { useId, type InputHTMLAttributes } from 'react'
 import './checkbox.css'
 
 export interface CheckboxProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'type'> {
@@ -20,7 +20,9 @@ export function Checkbox({
   ...props
 }: CheckboxProps) {
   const message = error || description
-  const messageId = id && message ? `${id}-message` : undefined
+  const generatedId = useId()
+  const inputId = id ?? `m8-checkbox-${generatedId}`
+  const messageId = message ? `${inputId}-message` : undefined
   const classes = ['m8-checkbox__input', className].filter(Boolean).join(' ')
 
   return (
@@ -31,7 +33,7 @@ export function Checkbox({
         aria-invalid={error ? true : undefined}
         className={classes}
         disabled={disabled}
-        id={id}
+        id={inputId}
         type="checkbox"
       />
       <span className="m8-checkbox__box" aria-hidden="true"><span /></span>

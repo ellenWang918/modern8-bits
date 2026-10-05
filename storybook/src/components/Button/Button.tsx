@@ -29,7 +29,9 @@ export function Button({
   return (
     <button className={classes} type={type} {...props}>
       {!iconOnly && <span className="m8-button__label">{children}</span>}
-      <span className="m8-button__icon" aria-hidden="true">arrow_forward</span>
+      <svg className="m8-button__icon" aria-hidden="true" viewBox="0 0 24 24" width="16" height="16" fill="none">
+        <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="square" />
+      </svg>
     </button>
   )
 }

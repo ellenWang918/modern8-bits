@@ -7,15 +7,15 @@ const spacingTokens = [
   { name: 'space/2', value: '8px', cssVar: '--m8-space-2', use: 'Base unit, compact gaps' },
   { name: 'space/3', value: '12px', cssVar: '--m8-space-3', use: 'Tight control padding' },
   { name: 'space/4', value: '16px', cssVar: '--m8-space-4', use: 'Standard control and card padding' },
-  { name: 'space/5', value: '24px', cssVar: '--m8-space-6', use: 'Component gaps and form rows' },
-  { name: 'space/6', value: '32px', cssVar: '--m8-space-8', use: 'Section spacing and modal padding' },
-  { name: 'space/7', value: '48px', cssVar: '--m8-space-12', use: 'Page rhythm and hero margins' },
-  { name: 'space/8', value: '80px', cssVar: '--m8-space-20', use: 'Major section separation' },
+  { name: 'space/6', value: '24px', cssVar: '--m8-space-6', use: 'Component gaps and form rows' },
+  { name: 'space/8', value: '32px', cssVar: '--m8-space-8', use: 'Section spacing and modal padding' },
+  { name: 'space/12', value: '48px', cssVar: '--m8-space-12', use: 'Page rhythm and hero margins' },
+  { name: 'space/20', value: '80px', cssVar: '--m8-space-20', use: 'Major section separation' },
 ]
 
 const radiusTokens = [
-  { name: 'radius/sm', value: '4px', cssVar: '--m8-radius-sm', use: 'Compact controls and subtle softening' },
-  { name: 'radius/md', value: '8px', cssVar: '--m8-radius-md', use: 'Cards and larger containers' },
+  { name: 'radius/small', value: '4px', cssVar: '--m8-radius-sm', use: 'Compact controls and subtle softening' },
+  { name: 'radius/medium', value: '8px', cssVar: '--m8-radius-md', use: 'Cards and larger containers' },
   { name: 'radius/lg', value: '12px', cssVar: '--m8-radius-lg', use: 'Panels, drawers and large containers' },
   { name: 'radius/full', value: '9999px', cssVar: '--m8-radius-full', use: 'Chips (pill), avatars, badges' },
 ]
@@ -73,7 +73,7 @@ export function SpacingRadius() {
         <div className="foundation-sheet__hero">
           <div>
             <h1>Spacing &amp; Radius</h1>
-            <p>A measured scale for rhythm and shape. Every specimen is linked to a live Figma variable.</p>
+            <p>A measured scale for rhythm and shape. Specimens use CSS tokens manually synchronized with Figma.</p>
           </div>
           <p className="foundation-sheet__note">USE THE TOKEN.<br />KEEP THE RHYTHM.</p>
         </div>
@@ -109,17 +109,17 @@ export function SpacingRadius() {
         </div>
         <div className="spacing-application">
           <div className="spacing-application__content">
-            <SpaceBand token="--m8-space-12" value="$spacing-7" />
+            <SpaceBand token="--m8-space-12" value="space/12" />
             <p className="spacing-application__label">Optional label</p>
-            <SpaceBand token="--m8-space-2" value="$spacing-2" />
+            <SpaceBand token="--m8-space-2" value="space/2" />
             <h3>Example of spacing tokens applied</h3>
-            <SpaceBand token="--m8-space-6" value="$spacing-5" />
+            <SpaceBand token="--m8-space-6" value="space/6" />
             <h4>Section heading</h4>
-            <SpaceBand token="--m8-space-3" value="$spacing-3" />
+            <SpaceBand token="--m8-space-3" value="space/3" />
             <p className="spacing-application__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <SpaceBand token="--m8-space-6" value="$spacing-5" />
+            <SpaceBand token="--m8-space-6" value="space/6" />
             <Button>Button</Button>
-            <SpaceBand token="--m8-space-20" value="$spacing-8" />
+            <SpaceBand token="--m8-space-20" value="space/20" />
           </div>
         </div>
       </section>

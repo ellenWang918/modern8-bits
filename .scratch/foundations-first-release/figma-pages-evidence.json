@@ -1,0 +1,107 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "Tokens",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"page\":\"↳ Tokens\",\"id\":\"3:4\",\"topLevel\":[{\"id\":\"74:2\",\"name\":\"Modern8-bits Colour System — Colour guide\",\"type\":\"FRAME\"},{\"id\":\"125:623\",\"name\":\"Swatch / gray/0\",\"type\":\"FRAME\"}],\"components\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "Typography",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"page\":\"↳ Typography\",\"id\":\"3:5\",\"topLevel\":[{\"id\":\"19:15\",\"name\":\"image 1\",\"type\":\"RECTANGLE\"},{\"id\":\"20:21\",\"name\":\"Typography — quiet UI, loud pixels\",\"type\":\"FRAME\"},{\"id\":\"118:12\",\"name\":\"Spacing & Radius — variable documentation\",\"type\":\"FRAME\"}],\"components\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "Spacing",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"page\":\"↳ Spacing\",\"id\":\"3:6\",\"topLevel\":[{\"id\":\"27:314\",\"name\":\"Spacing & Radius — variable documentation\",\"type\":\"FRAME\"}],\"components\":[]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "Button",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"page\":\"↳ Button\",\"id\":\"36:486\",\"topLevel\":[{\"id\":\"51:2\",\"name\":\"Buttons\",\"type\":\"FRAME\"},{\"id\":\"116:1121\",\"name\":\"Frame 4\",\"type\":\"FRAME\"}],\"components\":[{\"id\":\"44:2\",\"name\":\"Button\",\"type\":\"COMPONENT_SET\"},{\"id\":\"43:2\",\"name\":\"Color=Black, Variation=Contained, Size=Sm, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"43:5\",\"name\":\"Color=Black, Variation=Outline, Size=Sm, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"118:242\",\"name\":\"Color=Black, Variation=Outline, Size=Sm, Status=Hover\",\"type\":\"COMPONENT\"},{\"id\":\"43:8\",\"name\":\"Color=Black, Variation=Ghost, Size=Sm, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"118:245\",\"name\":\"Color=Black, Variation=Ghost, Size=Sm, Status=Hover\",\"type\":\"COMPONENT\"},{\"id\":\"43:11\",\"name\":\"Color=Black, Variation=Disable, Size=Sm, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"43:14\",\"name\":\"Color=Black, Variation=Contained, Size=Md, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"43:17\",\"name\":\"Color=Black, Variation=Outline, Size=Md, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"43:20\",\"name\":\"Color=Black, Variation=Ghost, Size=Md, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"43:23\",\"name\":\"Color=Black, Variation=Disable, Size=Md, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"43:26\",\"name\":\"Color=Black, Variation=Contained, Size=Lg, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"43:29\",\"name\":\"Color=Black, Variation=Outline, Size=Lg, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"43:32\",\"name\":\"Color=Black, Variation=Ghost, Size=Lg, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"116:1168\",\"name\":\"Color=Black, Variation=Ghost, Size=Lg, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"43:35\",\"name\":\"Color=Black, Variation=Disable, Size=Lg, Status=Default\",\"type\":\"COMPONENT\"},{\"id\":\"118:232\",\"name\":\"Color=Black, Variation=Contained, Size=Sm, Status=Hover\",\"type\":\"COMPONENT\"},{\"id\":\"44:3\",\"name\":\"Button / Icon only\",\"type\":\"COMPONENT_SET\"},{\"id\":\"43:38\",\"name\":\"Color=Black, Variation=Contained, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"43:40\",\"name\":\"Color=Black, Variation=Outline, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"43:42\",\"name\":\"Color=Black, Variation=Ghost, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"43:44\",\"name\":\"Color=Black, Variation=Disable, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"43:46\",\"name\":\"Color=Black, Variation=Contained, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"43:48\",\"name\":\"Color=Black, Variation=Outline, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"43:50\",\"name\":\"Color=Black, Variation=Ghost, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"43:52\",\"name\":\"Color=Black, Variation=Disable, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"43:54\",\"name\":\"Color=Black, Variation=Contained, Size=Lg\",\"type\":\"COMPONENT\"},{\"id\":\"43:56\",\"name\":\"Color=Black, Variation=Outline, Size=Lg\",\"type\":\"COMPONENT\"},{\"id\":\"43:58\",\"name\":\"Color=Black, Variation=Ghost, Size=Lg\",\"type\":\"COMPONENT\"},{\"id\":\"43:60\",\"name\":\"Color=Black, Variation=Disable, Size=Lg\",\"type\":\"COMPONENT\"}]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "Card",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"page\":\"↳ Card\",\"id\":\"36:489\",\"topLevel\":[{\"id\":\"65:38\",\"name\":\"Card\",\"type\":\"COMPONENT_SET\"},{\"id\":\"118:271\",\"name\":\"Card\",\"type\":\"INSTANCE\"},{\"id\":\"115:597\",\"name\":\"Frame 3\",\"type\":\"FRAME\"}],\"components\":[{\"id\":\"65:38\",\"name\":\"Card\",\"type\":\"COMPONENT_SET\"},{\"id\":\"65:2\",\"name\":\"Size=Default\",\"type\":\"COMPONENT\"},{\"id\":\"65:20\",\"name\":\"Size=Sm\",\"type\":\"COMPONENT\"}]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "Checkbox",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"page\":\"↳ Checkbox\",\"id\":\"75:707\",\"topLevel\":[{\"id\":\"81:67\",\"name\":\"FOUNDATIONS / COMPONENTS\",\"type\":\"TEXT\"},{\"id\":\"81:68\",\"name\":\"Checkbox\",\"type\":\"TEXT\"},{\"id\":\"81:69\",\"name\":\"A binary choice control for selecting one or more items in a set.\",\"type\":\"TEXT\"},{\"id\":\"81:70\",\"name\":\"STATES Unchecked · Checked · Indeterminate · Disabled · Disabled checked SIZES Sm · Md\",\"type\":\"TEXT\"},{\"id\":\"81:107\",\"name\":\"Checkbox\",\"type\":\"COMPONENT_SET\"}],\"components\":[{\"id\":\"81:107\",\"name\":\"Checkbox\",\"type\":\"COMPONENT_SET\"},{\"id\":\"81:71\",\"name\":\"State=Unchecked, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"81:74\",\"name\":\"State=Checked, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"81:78\",\"name\":\"State=Indeterminate, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"81:82\",\"name\":\"State=Disabled, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"81:85\",\"name\":\"State=Disabled checked, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"81:89\",\"name\":\"State=Unchecked, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"81:92\",\"name\":\"State=Checked, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"81:96\",\"name\":\"State=Indeterminate, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"81:100\",\"name\":\"State=Disabled, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"81:103\",\"name\":\"State=Disabled checked, Size=Md\",\"type\":\"COMPONENT\"}]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "Text field",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"page\":\"↳ Text field\",\"id\":\"36:487\",\"topLevel\":[{\"id\":\"81:2\",\"name\":\"FOUNDATIONS / COMPONENTS\",\"type\":\"TEXT\"},{\"id\":\"81:3\",\"name\":\"Text field\",\"type\":\"TEXT\"},{\"id\":\"81:4\",\"name\":\"A labeled input for short, typed responses. Keep labels visible; use helper text for guidance and errors.\",\"type\":\"TEXT\"},{\"id\":\"81:5\",\"name\":\"VARIANTS Size: Sm · Md · Lg State: Default · Focus · Error · Disabled\",\"type\":\"TEXT\"},{\"id\":\"81:66\",\"name\":\"Text Field\",\"type\":\"COMPONENT_SET\"}],\"components\":[{\"id\":\"81:66\",\"name\":\"Text Field\",\"type\":\"COMPONENT_SET\"},{\"id\":\"81:6\",\"name\":\"State=Default, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"81:11\",\"name\":\"State=Focus, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"81:16\",\"name\":\"State=Error, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"81:21\",\"name\":\"State=Disabled, Size=Sm\",\"type\":\"COMPONENT\"},{\"id\":\"81:26\",\"name\":\"State=Default, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"81:31\",\"name\":\"State=Focus, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"81:36\",\"name\":\"State=Error, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"81:41\",\"name\":\"State=Disabled, Size=Md\",\"type\":\"COMPONENT\"},{\"id\":\"81:46\",\"name\":\"State=Default, Size=Lg\",\"type\":\"COMPONENT\"},{\"id\":\"81:51\",\"name\":\"State=Focus, Size=Lg\",\"type\":\"COMPONENT\"},{\"id\":\"81:56\",\"name\":\"State=Error, Size=Lg\",\"type\":\"COMPONENT\"},{\"id\":\"81:61\",\"name\":\"State=Disabled, Size=Lg\",\"type\":\"COMPONENT\"}]}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "theme": "light",
+      "hover": "rgb(41, 41, 41)",
+      "pressed": "rgb(17, 17, 17)",
+      "statuses": [
+        {
+          "bg": "rgb(180, 35, 58)",
+          "fg": "rgb(255, 255, 255)"
+        },
+        {
+          "bg": "rgb(27, 94, 54)",
+          "fg": "rgb(255, 255, 255)"
+        },
+        {
+          "bg": "rgb(11, 87, 208)",
+          "fg": "rgb(255, 255, 255)"
+        }
+      ],
+      "inline": [
+        "rgb(180, 35, 58)",
+        "rgb(27, 94, 54)",
+        "rgb(11, 87, 208)"
+      ],
+      "errorBorder": "rgb(180, 35, 58)",
+      "disabledCheckbox": "rgb(238, 238, 238)",
+      "descriptionLinked": true
+    },
+    {
+      "theme": "dark",
+      "hover": "rgb(238, 238, 238)",
+      "pressed": "rgb(214, 214, 214)",
+      "statuses": [
+        {
+          "bg": "rgb(84, 33, 42)",
+          "fg": "rgb(255, 214, 220)"
+        },
+        {
+          "bg": "rgb(23, 61, 42)",
+          "fg": "rgb(166, 238, 192)"
+        },
+        {
+          "bg": "rgb(23, 54, 92)",
+          "fg": "rgb(207, 226, 255)"
+        }
+      ],
+      "inline": [
+        "rgb(255, 214, 220)",
+        "rgb(166, 238, 192)",
+        "rgb(207, 226, 255)"
+      ],
+      "errorBorder": "rgb(255, 214, 220)",
+      "disabledCheckbox": "rgb(41, 41, 41)",
+      "descriptionLinked": true
+    },
+    {
+      "focusVisible": true,
+      "outline": "solid",
+      "outlineColor": "rgb(255, 255, 255)"
+    },
+    {
+      "mobileOverflow": false
+    }
+  ],
+  "errors": []
+}
