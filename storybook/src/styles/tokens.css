@@ -43,6 +43,7 @@
   --m8-background-raised: var(--m8-gray-0);
   --m8-text-muted: var(--m8-gray-600);
   --m8-border-default: var(--m8-gray-200);
+  --m8-border-input: var(--m8-gray-600);
   --m8-icon-primary: var(--m8-gray-1000);
   --m8-action-primary: var(--m8-brand-primary);
   --m8-action-secondary: var(--m8-gray-1000);
@@ -116,6 +117,7 @@
   --m8-background-raised: var(--m8-gray-800);
   --m8-text-muted: var(--m8-gray-400);
   --m8-border-default: var(--m8-gray-800);
+  --m8-border-input: var(--m8-gray-400);
   --m8-icon-primary: var(--m8-gray-0);
   --m8-action-primary: var(--m8-gray-0);
   --m8-action-secondary: var(--m8-gray-0);

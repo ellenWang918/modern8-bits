@@ -1,0 +1,11 @@
+{
+  "variables": 122,
+  "value_comparisons": 274,
+  "differences": [],
+  "input_border_contrast": {
+    "light_to_fill": 5.36,
+    "light_to_canvas": 5.74,
+    "dark_to_fill": 7.49,
+    "dark_to_canvas": 8.33
+  }
+}

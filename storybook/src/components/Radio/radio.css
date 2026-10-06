@@ -1,0 +1,8 @@
+.m8-radio { display: flex; align-items: center; gap: var(--m8-space-3); min-height: 44px; color: var(--m8-text-primary); cursor: pointer; }
+.m8-radio input { width: 20px; height: 20px; flex: 0 0 20px; margin: 0; accent-color: var(--m8-action-selected); cursor: inherit; }
+.m8-radio input:focus-visible { outline: var(--m8-stroke-pixel) solid var(--m8-border-focus); outline-offset: 3px; }
+.m8-radio input:disabled { cursor: not-allowed; }
+.m8-radio:has(input:disabled) { color: var(--m8-action-disabled-on-background); cursor: not-allowed; }
+.m8-radio__label { display: block; font: var(--m8-type-ui-label-font); }
+.m8-radio__message { display: block; color: var(--m8-text-secondary); font: var(--m8-type-body-small-font); }
+.m8-radio:has(input[aria-invalid='true']) .m8-radio__message { color: var(--m8-status-error-text); }

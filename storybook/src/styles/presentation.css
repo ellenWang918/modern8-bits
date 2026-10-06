@@ -4,6 +4,8 @@
   --m8-presentation-font-interface: 'IBM Plex Sans', Arial, sans-serif;
   --m8-presentation-font-detail: 'IBM Plex Mono', 'Courier New', monospace;
   --m8-presentation-radius-card: var(--m8-radius-medium);
+  --m8-presentation-radius-small: var(--m8-radius-small);
+  --m8-presentation-radius-chip: var(--m8-radius-full);
 }
 [data-theme] {
   --m8-presentation-status-error: var(--m8-status-error);
@@ -21,6 +23,8 @@
   --m8-presentation-font-interface: 'IBM Plex Sans', Arial, sans-serif;
   --m8-presentation-font-detail: 'IBM Plex Sans', Arial, sans-serif;
   --m8-presentation-radius-card: var(--m8-radius-none);
+  --m8-presentation-radius-small: var(--m8-radius-none);
+  --m8-presentation-radius-chip: var(--m8-radius-none);
   --m8-presentation-status-error: var(--m8-action-primary);
   --m8-presentation-status-success: var(--m8-action-primary);
   --m8-presentation-status-info: var(--m8-action-primary);

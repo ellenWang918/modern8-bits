@@ -1,0 +1,110 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Error: in get_componentPropertyDefinitions: Component set has existing errors\n    at get (<input>:52:11)\n    at <anonymous> (PLUGIN_1_SOURCE:1:345)\n    at map (native)\n    at <anonymous> (PLUGIN_1_SOURCE:1:285)\n"
+        },
+        {
+          "type": "text",
+          "text": "Figma Debug UUID: c9a0c59d-15dd-4be8-ab76-e5f4e736e656"
+        }
+      ],
+      "structuredContent": {
+        "error": {
+          "message": "Error: in get_componentPropertyDefinitions: Component set has existing errors\n    at get (<input>:52:11)\n    at <anonymous> (PLUGIN_1_SOURCE:1:345)\n    at map (native)\n    at <anonymous> (PLUGIN_1_SOURCE:1:285)\n",
+          "debugUuid": "c9a0c59d-15dd-4be8-ab76-e5f4e736e656"
+        },
+        "safeToRetryWithoutCanvasRead": true,
+        "error_code": "INVALID_ARGUMENT"
+      },
+      "isError": true
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"page\":\"↳ Text field\",\"id\":\"36:487\",\"sets\":[{\"id\":\"81:66\",\"name\":\"Text Field\",\"variants\":12,\"props\":{\"State\":{\"type\":\"VARIANT\",\"defaultValue\":\"Default\",\"variantOptions\":[\"Default\",\"Focus\",\"Error\",\"Disabled\"]},\"Size\":{\"type\":\"VARIANT\",\"defaultValue\":\"Sm\",\"variantOptions\":[\"Sm\",\"Md\",\"Lg\"]}}}],\"components\":[{\"id\":\"81:6\",\"name\":\"State=Default, Size=Sm\"},{\"id\":\"81:11\",\"name\":\"State=Focus, Size=Sm\"},{\"id\":\"81:16\",\"name\":\"State=Error, Size=Sm\"},{\"id\":\"81:21\",\"name\":\"State=Disabled, Size=Sm\"},{\"id\":\"81:26\",\"name\":\"State=Default, Size=Md\"},{\"id\":\"81:31\",\"name\":\"State=Focus, Size=Md\"},{\"id\":\"81:36\",\"name\":\"State=Error, Size=Md\"},{\"id\":\"81:41\",\"name\":\"State=Disabled, Size=Md\"},{\"id\":\"81:46\",\"name\":\"State=Default, Size=Lg\"},{\"id\":\"81:51\",\"name\":\"State=Focus, Size=Lg\"},{\"id\":\"81:56\",\"name\":\"State=Error, Size=Lg\"},{\"id\":\"81:61\",\"name\":\"State=Disabled, Size=Lg\"}],\"instanceCount\":0,\"textCount\":40,\"fontFamilyBindings\":0,\"topFrames\":[],\"hasPrototypeInteractions\":false}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"page\":\"↳ Checkbox\",\"id\":\"75:707\",\"sets\":[{\"id\":\"81:107\",\"name\":\"Checkbox\",\"variants\":10,\"props\":{\"State\":{\"type\":\"VARIANT\",\"defaultValue\":\"Unchecked\",\"variantOptions\":[\"Unchecked\",\"Checked\",\"Indeterminate\",\"Disabled\",\"Disabled checked\"]},\"Size\":{\"type\":\"VARIANT\",\"defaultValue\":\"Sm\",\"variantOptions\":[\"Sm\",\"Md\"]}}}],\"components\":[{\"id\":\"81:71\",\"name\":\"State=Unchecked, Size=Sm\"},{\"id\":\"81:74\",\"name\":\"State=Checked, Size=Sm\"},{\"id\":\"81:78\",\"name\":\"State=Indeterminate, Size=Sm\"},{\"id\":\"81:82\",\"name\":\"State=Disabled, Size=Sm\"},{\"id\":\"81:85\",\"name\":\"State=Disabled checked, Size=Sm\"},{\"id\":\"81:89\",\"name\":\"State=Unchecked, Size=Md\"},{\"id\":\"81:92\",\"name\":\"State=Checked, Size=Md\"},{\"id\":\"81:96\",\"name\":\"State=Indeterminate, Size=Md\"},{\"id\":\"81:100\",\"name\":\"State=Disabled, Size=Md\"},{\"id\":\"81:103\",\"name\":\"State=Disabled checked, Size=Md\"}],\"instanceCount\":0,\"textCount\":20,\"fontFamilyBindings\":0,\"topFrames\":[],\"hasPrototypeInteractions\":false}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"page\":\"↳ Card\",\"id\":\"36:489\",\"sets\":[{\"id\":\"65:38\",\"name\":\"Card\",\"variants\":2,\"props\":{\"Title#65:18\":{\"type\":\"TEXT\",\"defaultValue\":\"Card title\"},\"Description#65:19\":{\"type\":\"TEXT\",\"defaultValue\":\"A short description gives people context.\"},\"Content#65:20\":{\"type\":\"TEXT\",\"defaultValue\":\"Supporting content can hold a short message, summary, or a few key details.\"},\"Footer label#65:21\":{\"type\":\"TEXT\",\"defaultValue\":\"View details\"},\"Action icon#65:22\":{\"type\":\"TEXT\",\"defaultValue\":\"more_horiz\"},\"Show description#65:23\":{\"type\":\"BOOLEAN\",\"defaultValue\":true},\"Show right action#65:24\":{\"type\":\"BOOLEAN\",\"defaultValue\":true},\"Show content#65:25\":{\"type\":\"BOOLEAN\",\"defaultValue\":true},\"Show action btn#65:26\":{\"type\":\"BOOLEAN\",\"defaultValue\":true},\"Instance#118:0\":{\"type\":\"INSTANCE_SWAP\",\"defaultValue\":\"59:2\",\"preferredValues\":[]},\"Size\":{\"type\":\"VARIANT\",\"defaultValue\":\"Default\",\"variantOptions\":[\"Default\",\"Sm\"]}}}],\"components\":[{\"id\":\"65:2\",\"name\":\"Size=Default\"},{\"id\":\"65:20\",\"name\":\"Size=Sm\"}],\"instanceCount\":6,\"textCount\":25,\"fontFamilyBindings\":0,\"topFrames\":[{\"id\":\"115:597\",\"name\":\"Frame 3\",\"width\":333,\"height\":290,\"modes\":{},\"reactions\":0}],\"hasPrototypeInteractions\":true}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"page\":\"↳ Chip\",\"id\":\"36:490\",\"sets\":[{\"id\":\"59:50\",\"name\":\"Chip\",\"variants\":6,\"props\":{\"Label#59:48\":{\"type\":\"TEXT\",\"defaultValue\":\"Chip\"},\"Dismiss icon#59:49\":{\"type\":\"TEXT\",\"defaultValue\":\"close\"},\"Dismissible#59:50\":{\"type\":\"BOOLEAN\",\"defaultValue\":true},\"Tone\":{\"type\":\"VARIANT\",\"defaultValue\":\"Neutral\",\"variantOptions\":[\"Neutral\",\"Dark\",\"Outline\"]},\"Size\":{\"type\":\"VARIANT\",\"defaultValue\":\"Sm\",\"variantOptions\":[\"Sm\",\"Md\"]}}}],\"components\":[{\"id\":\"59:2\",\"name\":\"Tone=Neutral, Size=Sm\"},{\"id\":\"59:14\",\"name\":\"Tone=Dark, Size=Sm\"},{\"id\":\"59:23\",\"name\":\"Tone=Outline, Size=Sm\"},{\"id\":\"59:26\",\"name\":\"Tone=Neutral, Size=Md\"},{\"id\":\"59:38\",\"name\":\"Tone=Dark, Size=Md\"},{\"id\":\"59:47\",\"name\":\"Tone=Outline, Size=Md\"}],\"instanceCount\":0,\"textCount\":12,\"fontFamilyBindings\":0,\"topFrames\":[],\"hasPrototypeInteractions\":false}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"page\":\"↳ Radio button\",\"id\":\"75:708\",\"sets\":[{\"id\":\"81:140\",\"name\":\"Radio Button\",\"variants\":8,\"props\":{\"State\":{\"type\":\"VARIANT\",\"defaultValue\":\"Unselected\",\"variantOptions\":[\"Unselected\",\"Selected\",\"Disabled\",\"Disabled selected\"]},\"Size\":{\"type\":\"VARIANT\",\"defaultValue\":\"Sm\",\"variantOptions\":[\"Sm\",\"Md\"]}}}],\"components\":[{\"id\":\"81:112\",\"name\":\"State=Unselected, Size=Sm\"},{\"id\":\"81:115\",\"name\":\"State=Selected, Size=Sm\"},{\"id\":\"81:119\",\"name\":\"State=Disabled, Size=Sm\"},{\"id\":\"81:122\",\"name\":\"State=Disabled selected, Size=Sm\"},{\"id\":\"81:126\",\"name\":\"State=Unselected, Size=Md\"},{\"id\":\"81:129\",\"name\":\"State=Selected, Size=Md\"},{\"id\":\"81:133\",\"name\":\"State=Disabled, Size=Md\"},{\"id\":\"81:136\",\"name\":\"State=Disabled selected, Size=Md\"}],\"instanceCount\":0,\"textCount\":12,\"fontFamilyBindings\":0,\"topFrames\":[],\"hasPrototypeInteractions\":false}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"page\":\"↳ Themes\",\"id\":\"3:7\",\"sets\":[],\"components\":[],\"instanceCount\":16,\"textCount\":118,\"fontFamilyBindings\":16,\"topFrames\":[{\"id\":\"74:3\",\"name\":\"Modern8-bits Colour System — Themes guide\",\"width\":1440,\"height\":1012,\"modes\":{},\"reactions\":0},{\"id\":\"160:16\",\"name\":\"Getting Started — presentation × appearance\",\"width\":1440,\"height\":1842.4000244140625,\"modes\":{\"VariableCollectionId:29:387\":\"29:2\",\"VariableCollectionId:160:2\":\"160:0\"},\"reactions\":0}],\"hasPrototypeInteractions\":false}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"page\":\"_expenseApp\",\"id\":\"170:36\",\"sets\":[],\"components\":[],\"instanceCount\":11,\"textCount\":112,\"fontFamilyBindings\":0,\"topFrames\":[{\"id\":\"172:2\",\"name\":\"Expenses — List\",\"width\":390,\"height\":844,\"modes\":{\"VariableCollectionId:29:387\":\"29:2\",\"VariableCollectionId:160:2\":\"160:1\"},\"reactions\":0},{\"id\":\"172:3\",\"name\":\"Expenses — Add\",\"width\":390,\"height\":844,\"modes\":{\"VariableCollectionId:29:387\":\"29:2\",\"VariableCollectionId:160:2\":\"160:1\"},\"reactions\":0},{\"id\":\"178:20\",\"name\":\"Expense app — capability notes\",\"width\":360,\"height\":310,\"modes\":{},\"reactions\":0},{\"id\":\"181:20\",\"name\":\"Onboarding 01 — Welcome\",\"width\":390,\"height\":844,\"modes\":{\"VariableCollectionId:29:387\":\"29:2\",\"VariableCollectionId:160:2\":\"160:1\"},\"reactions\":0},{\"id\":\"181:32\",\"name\":\"Onboarding 02 — Budget\",\"width\":390,\"height\":844,\"modes\":{\"VariableCollectionId:29:387\":\"29:2\",\"VariableCollectionId:160:2\":\"160:1\"},\"reactions\":0},{\"id\":\"181:47\",\"name\":\"Onboarding 03 — Categories\",\"width\":390,\"height\":844,\"modes\":{\"VariableCollectionId:29:387\":\"29:2\",\"VariableCollectionId:160:2\":\"160:1\"},\"reactions\":0},{\"id\":\"181:71\",\"name\":\"Onboarding 04 — Ready\",\"width\":390,\"height\":844,\"modes\":{\"VariableCollectionId:29:387\":\"29:2\",\"VariableCollectionId:160:2\":\"160:1\"},\"reactions\":0}],\"hasPrototypeInteractions\":false}"
+        }
+      ],
+      "isError": false
+    }
+  }
+]

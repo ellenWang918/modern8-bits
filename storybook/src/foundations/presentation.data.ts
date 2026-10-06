@@ -1,7 +1,27 @@
-// Figma Presentation definitions, manually synchronized on 5 October 2026.
+// Figma Presentation definitions, manually synchronized on 6 October 2026.
 import type { VariableDefinition } from './variables.data'
 
 export const presentationVariables: VariableDefinition[] = [
+  {
+    "name": "presentation/radius/small",
+    "type": "FLOAT",
+    "collection": "Presentation",
+    "description": "Small surface and structural marker corners: retain radius/small in Default and use radius/none in Low-fidelity. Preserve layout and selection cues.",
+    "values": [
+      { "mode": "Default", "value": "4px", "reference": "radius/small" },
+      { "mode": "Low-fidelity", "value": "0px", "reference": "radius/none" }
+    ]
+  },
+  {
+    "name": "presentation/radius/chip",
+    "type": "FLOAT",
+    "collection": "Presentation",
+    "description": "Figma Chip pill corners in Default; crisp corners in Low-fidelity. Chip remains a Figma-only richer representation; code Badge has its own supported subset.",
+    "values": [
+      { "mode": "Default", "value": "9999px", "reference": "radius/full" },
+      { "mode": "Low-fidelity", "value": "0px", "reference": "radius/none" }
+    ]
+  },
   {
     "name": "presentation/font/display",
     "type": "STRING",

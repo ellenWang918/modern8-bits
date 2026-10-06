@@ -1,5 +1,4 @@
-import { useId, useState } from 'react'
-import { Button } from '../components/Button/Button'
+import { useId, useState, type MouseEvent } from 'react'
 import { variables } from './variables.data'
 import { TokenUsage } from './TokenUsage'
 import { FoundationUsage } from './FoundationUsage'
@@ -17,6 +16,12 @@ const categoryLabels: Record<string, string> = {
 export function Variables() {
   const searchId = useId()
   const anchorId = (name: string) => `${searchId}-variables-${name.replace(/[^a-z0-9]/gi, '-')}`
+  const scrollToSection = (event: MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault()
+    const link = event.currentTarget
+    const targetId = link.getAttribute('href')?.slice(1)
+    if (targetId) link.ownerDocument.getElementById(targetId)?.scrollIntoView({ block: 'start' })
+  }
   const [query, setQuery] = useState('')
   const [collection, setCollection] = useState('All')
   const filtered = variables.filter(variable =>
@@ -28,14 +33,16 @@ export function Variables() {
   return (
     <main className="m8-variables">
       <header className="m8-variables__header">
+        <div className="m8-variables__header-content">
         <h1>Design Token</h1>
         <p>Every existing Figma variable, with its values, references, and usage guidance.</p>
         <p className="m8-variables__note">
-          Figma snapshot · 5 October 2026 · {variables.length} variables. This page is a reference;
+          Figma snapshot · 6 October 2026 · {variables.length} variables. This page is a reference;
           colour, dimension, and presentation definitions are synchronized with code. Values below show Figma definitions,
           independently of the Appearance control. Dimensions use pixels; motion durations use milliseconds.
         </p>
         <a href="https://www.figma.com/design/Ig6OBlF54TZEoe3D8BwwlJ/modern8-bits?node-id=3-4" target="_blank" rel="noreferrer">Open the Figma token page ↗</a>
+        </div>
       </header>
       <div className="m8-variables__body">
       <div className="m8-variables__content">
@@ -47,7 +54,11 @@ export function Variables() {
         <fieldset>
           <legend>Collection</legend>
           <div className="m8-variables__choices">
-            {collections.map(name => <Button key={name} variant={collection === name ? 'contained' : 'outline'} size="medium" aria-pressed={collection === name} onClick={() => setCollection(name)}>{name}</Button>)}
+            {collections.map(name => (
+              <button key={name} type="button" className="m8-variables__chip" aria-pressed={collection === name} onClick={() => setCollection(name)}>
+                {name}
+              </button>
+            ))}
           </div>
         </fieldset>
       </div>
@@ -73,11 +84,11 @@ export function Variables() {
                       {variable.values.map(value => (
                         <td key={value.mode}>
                           <span className="m8-variables__mode-label">{value.mode} value</span>
-                          <div className="m8-variables__colour-value">
+                          <div className="m8-variables__colour-value" data-theme={value.mode.toLowerCase()}>
                             <span className="m8-variables__swatch" style={{ backgroundColor: value.value }} aria-hidden="true" />
                             <div>
                               <code className="m8-variables__value-name">{value.reference ?? value.value}</code>
-                              <span className="m8-variables__value-detail">{value.reference ? value.value : 'Direct value'}</span>
+                              {value.reference && <span className="m8-variables__value-detail">{value.value}</span>}
                             </div>
                           </div>
                         </td>
@@ -129,19 +140,19 @@ export function Variables() {
           const categories = [...new Set(group.map(variable => variable.name.split('/')[0]))]
           return (
             <div className="m8-variables__toc-group" key={name}>
-              <a className="m8-variables__toc-section" href={`#${anchorId(name)}`}>{name}</a>
+              <a className="m8-variables__toc-section" href={`#${anchorId(name)}`} onClick={scrollToSection}>{name}</a>
               <ul>
                 {categories.map(category => {
                   const first = group.find(variable => variable.name.startsWith(`${category}/`))!
-                  return <li key={category}><a href={`#${anchorId(first.name)}`}>{categoryLabels[category] ?? category}</a></li>
+                  return <li key={category}><a href={`#${anchorId(first.name)}`} onClick={scrollToSection}>{categoryLabels[category] ?? category}</a></li>
                 })}
               </ul>
             </div>
           )
         })}
         {filtered.length === 0 && <p>No matching sections.</p>}
-        <a className="m8-variables__toc-section" href={`#${anchorId('usage')}`}>Usage and states</a>
-        <a className="m8-variables__toc-section" href={`#${anchorId('typography-layout')}`}>Typography and layout</a>
+        <a className="m8-variables__toc-section" href={`#${anchorId('usage')}`} onClick={scrollToSection}>Usage and states</a>
+        <a className="m8-variables__toc-section" href={`#${anchorId('typography-layout')}`} onClick={scrollToSection}>Typography and layout</a>
       </nav>
       </div>
     </main>

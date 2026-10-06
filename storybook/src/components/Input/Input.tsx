@@ -20,12 +20,14 @@ export function Input({
   id,
   label,
   type = 'text',
+  'aria-describedby': describedBy,
   ...props
 }: InputProps) {
   const generatedId = useId()
   const inputId = id ?? `m8-input-${generatedId}`
   const message = error || hint
   const messageId = message ? `${inputId}-message` : undefined
+  const descriptionIds = [...new Set(`${describedBy ?? ''} ${messageId ?? ''}`.split(/\s+/).filter(Boolean))].join(' ') || undefined
   const classes = ['m8-field__input', error && 'm8-field__input--error', className]
     .filter(Boolean)
     .join(' ')
@@ -35,7 +37,7 @@ export function Input({
       <label className="m8-field__label" htmlFor={inputId}>{label}</label>
       <input
         {...props}
-        aria-describedby={messageId}
+        aria-describedby={descriptionIds}
         aria-invalid={error ? true : undefined}
         className={classes}
         disabled={disabled}

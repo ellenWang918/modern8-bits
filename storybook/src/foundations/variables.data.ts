@@ -1,4 +1,4 @@
-// Figma definitions synchronized manually; Presentation added on 2026-10-05.
+// Figma definitions synchronized manually on 2026-10-06; Presentation added on 2026-10-05.
 import { presentationVariables } from './presentation.data'
 export interface VariableDefinition {
   name: string
@@ -1732,6 +1732,16 @@ export const variables: VariableDefinition[] = [
     }
   ]
 },
+  {
+    "name": "border/input",
+    "type": "COLOR",
+    "collection": "Color",
+    "description": "Resting enabled input boundary. Distinguish interactive fields from decorative borders; use border/focus for keyboard focus and status/error/text for invalid fields.",
+    "values": [
+      { "mode": "Light", "value": "#666666", "reference": "gray/600" },
+      { "mode": "Dark", "value": "#A3A3A3", "reference": "gray/400" }
+    ]
+  },
   ...presentationVariables,
 ]
 

@@ -8,7 +8,7 @@ const preview: Preview = {
   parameters: {
     options: {
       storySort: (a, b) => {
-        const sectionOrder = ['Foundation', 'Component']
+        const sectionOrder = ['Foundation', 'Component', 'Pattern']
         const sectionA = a.title.split('/')[0]
         const sectionB = b.title.split('/')[0]
         const sectionDifference = sectionOrder.indexOf(sectionA) - sectionOrder.indexOf(sectionB)

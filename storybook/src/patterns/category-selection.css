@@ -1,0 +1,7 @@
+.m8-category-examples { display: grid; gap: var(--m8-space-6); color: var(--m8-text-primary); font-family: var(--m8-presentation-font-interface); }
+.m8-category-examples form { display: grid; gap: var(--m8-space-4); }
+.m8-category-examples fieldset { margin: 0; padding: var(--m8-space-4); border: 1px solid var(--m8-border-default); min-width: 0; }
+.m8-category-examples legend { font: var(--m8-type-ui-label-font); }
+.m8-category-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 100px), 1fr)); gap: var(--m8-space-3); }
+.m8-category-options .m8-checkbox { min-height: 44px; align-items: center; width: 100%; }
+.m8-category-error { color: var(--m8-status-error-text); }

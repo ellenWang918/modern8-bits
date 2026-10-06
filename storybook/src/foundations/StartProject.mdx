@@ -1,0 +1,44 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+<Meta title="Foundation/Start Project" />
+
+# Start a project
+
+Download a small React starter that includes the current components, tokens, typography, and selection examples. No package name or design expertise is required.
+
+1. <a href="./modern8-bits-starter.zip" download>Download the starter ZIP</a> and extract it to a new folder.
+2. Install Node.js 22 or newer if it is not already available.
+3. Open a terminal in that folder and run:
+
+```sh
+npm install
+npm run dev
+```
+
+4. Open the local address printed in your terminal. Choose Default or Low-fidelity, then Light or Dark.
+5. Ask your coding agent to adapt the starter using the prompt below. Start with one small flow.
+
+The starter contains source files you own and can edit. It uses Google Fonts with system fallbacks; loading those fonts requires internet access. Examples use in-memory state, which resets on refresh. Run `npm run build` before sharing your changes.
+
+## Prompt for your coding agent
+
+```text
+Build my responsive web product using the Modern8-bits source in this starter.
+First ask whether I want the Default theme or a Low-fidelity structural prototype,
+unless I have already chosen. Ask what one small flow I want to build.
+Use light appearance unless I request dark. Set data-theme and data-presentation
+on the same root wrapper and preserve input/selection state when modes change.
+Read USAGE.md. Use the real Button, Input, Checkbox, Radio, Badge and Card APIs.
+Use Radio for one choice and Checkbox for several; keep visible labels, keyboard
+focus and explicit validation. Use shared semantic tokens and typography roles.
+Identify missing capabilities before inventing components or props.
+Check mobile and wider layouts, all four mode combinations, then run the build.
+```
+
+## Find the right piece
+
+- Input supports native date and number fields; it does not implement a custom date picker or currency formatting.
+- Radio uses native single-selection behavior. Checkbox supports independent choices.
+- <a href="./?path=/docs/pattern-category-selection--docs" target="_top">Category selection examples</a> show group validation and keyboard behavior.
+- <a href="./USAGE.md" target="_blank" rel="noreferrer">Read the usage guide</a> or <a href="https://github.com/ellenWang918/modern8-bits" target="_blank" rel="noreferrer">browse the repository</a>.
+- <a href="./?path=/docs/foundation-getting-started--docs" target="_top">Getting Started</a> demonstrates presentation switching; <a href="./?path=/docs/foundation-design-token--docs" target="_top">Design Token</a> documents the definitions.

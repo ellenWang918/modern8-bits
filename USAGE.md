@@ -17,7 +17,7 @@ Completion: the selected presentation and appearance are explicit on the product
 This repository contains a React/TypeScript library in `storybook/src`. It is a local source library; there is no published package name to install. Adapt relative imports to the consuming file.
 
 ```tsx
-import { Button, Input, Checkbox, Badge, Card } from './components'
+import { Button, Input, Checkbox, Radio, Badge, Card } from './components'
 import './styles/tokens.css'
 import './styles/global.css'
 import './styles/presentation.css'
@@ -37,7 +37,9 @@ export function Product() {
 
 Set `data-presentation="low-fidelity"` for structural prototypes. Put both attributes on the same wrapper; nested appearance changes should repeat the presentation attribute. Change these attributes without replacing the component tree, so existing input and selection state survives. Storybook's Appearance and Presentation toolbars apply to component stories; Getting Started provides local controls for its documentation example.
 
-Completion: imports resolve, all five component families are available, and both attributes reach the intended components.
+For a new project, download the starter from the public Storybook's Start Project page, extract it, run `npm install`, then `npm run dev`. The starter includes the current source, styles, Google Fonts imports with system fallbacks, and selection examples. Run `npm run build` before sharing. Maintainers regenerate the archive with `python scripts/build-starter.py` after changing the shipped library.
+
+Completion: imports resolve, all six component families are available, and both attributes reach the intended components.
 
 ## Choose by purpose
 
@@ -46,10 +48,15 @@ Completion: imports resolve, all five component families are available, and both
 | Button | Trigger an action | contained, outline, ghost, pixel; small/medium/large; disabled; icon-only with an accessible name |
 | Input | Enter text | label, hint, error, disabled, normal HTML input attributes; authored medium 44px size |
 | Checkbox | Select a binary option | label, description, error, disabled, controlled or uncontrolled checked state; medium 20px box |
+| Radio | Choose one option in a group | label, description, error, disabled, native radio attributes; share a name and use distinct values |
 | Badge | Show a short label | neutral, strong, pixel |
 | Card | Group related content | title, eyebrow, footer, default or pixel |
 
 Use visible labels for fields and clear action verbs for buttons. A placeholder supports a label; it does not replace one. Error props link explicit messages to their input. A disabled control needs explanatory nearby copy when the reason is not obvious.
+
+For single category selection, group Radio options in a fieldset with a legend; native arrow keys move and select. For multiple categories, group Checkbox options; Tab moves and Space toggles. Associate any group error with every affected control, and retain explicit selected marks in all modes. The Category Selection pattern demonstrates group validation and in-memory results.
+
+Input supports native `type="date"` and `type="number"`, including `required`, `min` and `step`. Date values use YYYY-MM-DD. Number fields do not format currencies; label the currency explicitly and handle locale display and decimal-safe calculations separately. No custom date picker or receipt upload API is available.
 
 Choose large 48px buttons for touch-heavy layouts. Compact 32/40px buttons need adequate target spacing. Figma contains additional sizes, indeterminate selection, and richer Card/Chip structures; consult the Design Token page's supported mappings before treating them as code APIs.
 

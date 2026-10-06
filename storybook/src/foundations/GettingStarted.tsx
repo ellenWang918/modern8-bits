@@ -27,6 +27,7 @@ export function GettingStarted() {
       <section aria-labelledby="mode-choice-title">
         <h2 id="mode-choice-title">Choose how you want to start</h2>
         <p><strong>Default theme</strong> shows the Modern8-bits typography and optional pixel accents. <strong>Low-fidelity</strong> uses plain type, grayscale feedback, and minimal decoration so you can review structure.</p>
+        <p>These controls affect the example below. Storybook’s toolbar controls affect individual component stories.</p>
         <div className="m8-getting-started__controls">
           <fieldset><legend>Presentation</legend><div>
             {(['default', 'low-fidelity'] as const).map(mode => <Button key={mode} size="medium" variant={presentation === mode ? 'contained' : 'outline'} aria-pressed={presentation === mode} onClick={() => setPresentation(mode)}>{mode === 'default' ? 'Default theme' : 'Low-fidelity'}</Button>)}
@@ -55,12 +56,12 @@ export function GettingStarted() {
         <h2 id="building-title">Build with the available pieces</h2>
         <ol>
           <li>Choose presentation and appearance before adding components.</li>
-          <li>Use Button for actions, Input for text entry, Checkbox for selection, Badge for short labels, and Card for grouped content.</li>
-          <li>Use semantic colours and the shared spacing and typography roles from <a href="?path=/docs/foundation-design-token--docs">Design Token</a>.</li>
+          <li>Use Button for actions, Input for text entry, Radio for one choice, Checkbox for several choices, Badge for short labels, and Card for grouped content.</li>
+          <li>Use semantic colours and the shared spacing and typography roles from <a href="./?path=/docs/foundation-design-token--docs" target="_top">Design Token</a>.</li>
           <li>Review keyboard focus, error messages, disabled states, and narrow layouts before sharing.</li>
         </ol>
         <p>For coding agents, begin with: <strong>“Would you like the default Modern8-bits theme, or a low-fidelity prototype to review the structure?”</strong> Use the choice already given when one exists.</p>
-        <p>The repository's <code>USAGE.md</code> contains imports, setup, mode rules, and the current component limits. When a capability is missing, describe the gap before adding a new component or API.</p>
+        <p><a href="./?path=/docs/foundation-start-project--docs" target="_top">Start a project</a> to download the runnable starter and copy the coding-agent prompt. Read the <a href="./USAGE.md" target="_blank" rel="noreferrer">usage guide</a> for imports, setup and current limits.</p>
       </section>
     </main>
   )
