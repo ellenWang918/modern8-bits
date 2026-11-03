@@ -95,7 +95,7 @@ export function AlignmentGuidance({ initialTheme = 'light', initialPresentation 
   const [presentation, setPresentation] = useState(initialPresentation)
   return <main className="m8-grid-guide m8-alignment-guide sb-unstyled" data-theme={theme} data-presentation={presentation} data-guides={guides}>
     <header className="m8-grid-header"><div className="m8-grid-header__content">
-      <h1 tabIndex={-1}>Alignment</h1>
+      <h1 tabIndex={-1}><span className="m8-alignment-title-ink">Alignment</span></h1>
       <p>Make the structure precise, then make it look right.</p>
       <p className="m8-grid-header__note">Geometric and optical alignment · Rules for every component and layout · Original Modern8-bits guidance</p>
     </div></header>
@@ -104,7 +104,7 @@ export function AlignmentGuidance({ initialTheme = 'light', initialPresentation 
       <div className="m8-grid-content">
         <Section id="principle" number="01" title="Align the structure. Balance the content." intro="Geometric alignment matches boxes, centres, edges, and baselines. Optical alignment makes a small correction when the visible shape or text still appears out of place.">
           <div className="m8-grid-callout"><strong>Our rule</strong><p>All components and layouts start with geometric alignment. Check their visible content at its intended size. When a mismatch remains, use the smallest useful correction inside the component, and record why it is needed.</p></div>
-          <div className="m8-grid-two-up"><article><h3>Keep the structure dependable</h3><p>Grid lines, container edges, padding, gaps, input boundaries, focus rings, and interactive hit areas remain consistent. Fix an incorrect layout or an asset’s empty bounds before adding an offset.</p></article><article><h3>Judge what people actually see</h3><p>Transparent space, uneven shapes, and font metrics can make equal boxes look unequal. Compare visible edges and visual weight, with guides both on and off.</p></article></div>
+          <div className="m8-grid-two-up m8-alignment-principles"><article><h3>Keep the structure dependable</h3><p>Grid lines, container edges, padding, gaps, input boundaries, focus rings, and interactive hit areas remain consistent. Fix an incorrect layout or an asset’s empty bounds before adding an offset.</p></article><article><h3>Judge what people actually see</h3><p>Transparent space, uneven shapes, and font metrics can make equal boxes look unequal. Compare visible edges and visual weight, with guides both on and off.</p></article></div>
           <p className="m8-grid-caption">These are our own system rules and teaching diagrams. They do not prescribe a universal correction or claim that every existing component or Figma asset has already been reviewed.</p>
           <div className="m8-alignment-controls" role="group" aria-label="Documentation display settings">
             <label htmlFor={`${id}-theme`}>Appearance<select id={`${id}-theme`} value={theme} onChange={event => setTheme(event.target.value === 'dark' ? 'dark' : 'light')}><option value="light">Light</option><option value="dark">Dark</option></select></label>

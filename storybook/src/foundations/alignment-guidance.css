@@ -1,12 +1,20 @@
-.m8-alignment-guide .m8-alignment-controls { display: flex; flex-wrap: wrap; align-items: end; gap: var(--m8-space-4); padding: var(--m8-space-6); border: 1px solid var(--m8-border-default); }
+/* Space Grotesk's capital A has a wider left bearing than the adjacent body copy.
+   Shift only the title ink; retain the heading's layout/focus box. IBM Plex needs no correction. */
+.m8-alignment-guide[data-presentation='default'] .m8-alignment-title-ink { position: relative; inset-inline-start: -2px; }
+.m8-alignment-guide .m8-alignment-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)) auto; align-items: end; gap: var(--m8-space-4); padding: var(--m8-space-6); border: 1px solid var(--m8-border-default); }
 .m8-alignment-controls label { display: grid; gap: var(--m8-space-2); min-width: 0; font-size: 14px; font-weight: 500; }
-.m8-alignment-controls select { min-height: 44px; max-width: 100%; padding: var(--m8-space-2) var(--m8-space-3); color: var(--m8-text-primary); background: var(--m8-background-canvas); border: 1px solid var(--m8-border-input); border-radius: var(--m8-presentation-radius-small); font: inherit; }
-.m8-alignment-controls .m8-alignment-check { display: flex; align-items: center; gap: var(--m8-space-2); min-height: 44px; }
-.m8-alignment-check input { width: 20px; height: 20px; margin: 0; accent-color: var(--m8-action-primary); flex-shrink: 0; }
+.m8-alignment-controls select { min-height: 44px; min-width: 0; width: 100%; max-width: 100%; padding: var(--m8-space-2) var(--m8-space-3); color: var(--m8-text-primary); background: var(--m8-background-canvas); border: 1px solid var(--m8-border-input); border-radius: var(--m8-presentation-radius-small); font: inherit; }
+.m8-alignment-controls .m8-alignment-check { display: grid; grid-template-columns: 20px minmax(0, 1fr); align-content: center; align-items: start; column-gap: var(--m8-space-2); min-height: 44px; line-height: 1.5; }
+/* Centre in one text line; wrapping labels retain the first-line anchor. */
+.m8-alignment-check input { width: 20px; height: 20px; margin: 0; margin-block-start: calc((1.5em - 20px) / 2); font: inherit; accent-color: var(--m8-action-primary); }
+.m8-alignment-guide .m8-alignment-principles { row-gap: var(--m8-space-3); }
+.m8-alignment-principles > article { display: grid; grid-row: span 2; grid-template-rows: subgrid; align-items: start; }
+.m8-alignment-guide .m8-alignment-principles :is(h3, p) { margin: 0; }
 .m8-alignment-example + .m8-alignment-example { margin-top: var(--m8-space-8); }
-.m8-alignment-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--m8-space-4); margin-block: var(--m8-space-4); }
-.m8-alignment-comparison figure { min-width: 0; margin: 0; background: var(--m8-background-surface); border: 1px solid var(--m8-border-default); }
-.m8-alignment-comparison figcaption { display: grid; gap: var(--m8-space-2); padding: var(--m8-space-4); font-size: 14px; line-height: 1.5; }
+.m8-alignment-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--m8-space-4); row-gap: 0; margin-block: var(--m8-space-4); }
+/* Share caption and diagram rows so wrapping cannot shift one example's reference lines. */
+.m8-alignment-comparison figure { display: grid; grid-row: span 2; grid-template-rows: subgrid; min-width: 0; margin: 0; background: var(--m8-background-surface); border: 1px solid var(--m8-border-default); }
+.m8-alignment-comparison figcaption { display: grid; align-content: start; gap: var(--m8-space-2); padding: var(--m8-space-6); font-size: 14px; line-height: 1.5; }
 .m8-alignment-comparison figcaption span { font: var(--m8-type-utility-label-font); font-family: var(--m8-presentation-font-detail); color: var(--m8-text-secondary); }
 .m8-alignment-diagram { display: block; width: 100%; height: auto; color: var(--m8-text-primary); }
 .m8-alignment-diagram text { fill: currentColor; font-family: var(--m8-presentation-font-interface); }
@@ -19,8 +27,20 @@
 .m8-alignment-explanation p { max-width: 80ch; }
 .m8-alignment-steps, .m8-alignment-review { padding-inline-start: var(--m8-space-6); }
 .m8-alignment-steps li + li, .m8-alignment-review li + li { margin-top: var(--m8-space-4); }
+@media (min-width: 961px) {
+  .m8-alignment-guide .m8-grid-toc { margin-top: var(--m8-space-8); }
+}
+@media (max-width: 672px) {
+  .m8-alignment-guide[data-presentation='default'] .m8-alignment-title-ink { inset-inline-start: -1px; }
+  .m8-alignment-guide .m8-alignment-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .m8-alignment-controls .m8-alignment-check { grid-column: 1 / -1; }
+}
 @media (max-width: 560px) {
-  .m8-alignment-comparison { grid-template-columns: minmax(0, 1fr); }
-  .m8-alignment-controls { flex-direction: column; align-items: stretch; }
-  .m8-alignment-controls label { width: 100%; }
+  .m8-alignment-comparison { grid-template-columns: minmax(0, 1fr); row-gap: var(--m8-space-4); }
+  .m8-alignment-comparison figure { grid-row: auto; grid-template-rows: auto auto; }
+  .m8-alignment-guide .m8-alignment-principles { row-gap: var(--m8-space-6); }
+  .m8-alignment-principles > article { grid-row: auto; grid-template-rows: auto auto; gap: var(--m8-space-3); }
+}
+@media (max-width: 480px) {
+  .m8-alignment-guide .m8-alignment-controls { grid-template-columns: minmax(0, 1fr); }
 }

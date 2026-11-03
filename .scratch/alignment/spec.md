@@ -18,3 +18,9 @@ Record the rule in DESIGN.md, reconcile existing 4px optical-adjustment wording,
 - Screenshots: `alignment-examples.png` and `alignment-dark.png`.
 - React review: stable module-level components, controlled native labelled controls, no effects or remounts for display changes, scoped styles, descriptive SVG labels, and keyboard focus transfer for section navigation.
 - The page is original system guidance. Component links and DESIGN.md now apply the rule; existing production component geometry and Figma assets have not been bulk changed or claimed as audited.
+
+## Apply the rule to this page
+
+Align the documentation's own presentation: equal-width display selects with shared row anchors; caption/diagram rows shared across each before/after pair; aligned principle headings and body starts; side-menu heading aligned with the content's opening row. Apply a documented 2px (small view: 1px) correction to the Space Grotesk title ink, retaining the heading's layout and focus box; IBM Plex low-fidelity needs no offset. Keep the deliberately uncorrected teaching examples intact. Scope these refinements to Alignment. The guides checkbox aligns with the first line if its label wraps.
+
+Validation: application and Storybook builds passed. Four stories passed at desktop, 600px, and 320px (12 checks), covering paired diagram positions when captions wrap, equal control widths and shared centres, principle body starts, heading/section anchors, narrow stacking, modes, state, navigation, and focus. Visually reviewed the live header, controls, and paired panels. Screenshot: `alignment-applied.png`.
