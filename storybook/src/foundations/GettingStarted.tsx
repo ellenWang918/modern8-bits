@@ -61,7 +61,7 @@ export function GettingStarted() {
           <li>Review keyboard focus, error messages, disabled states, and narrow layouts before sharing.</li>
         </ol>
         <p>For coding agents, begin with: <strong>“Would you like the default Modern8-bits theme, or a low-fidelity prototype to review the structure?”</strong> Use the choice already given when one exists.</p>
-        <p><a href="./?path=/docs/foundation-start-project--docs" target="_top">Start a project</a> to download the runnable starter and copy the coding-agent prompt. Read the <a href="./USAGE.md" target="_blank" rel="noreferrer">usage guide</a> for imports, setup and current limits.</p>
+        <p><a href="./?path=/docs/get-started-start-project--docs" target="_top">Start a project</a> to download the runnable starter and copy the coding-agent prompt. Read the <a href="./USAGE.md" target="_blank" rel="noreferrer">usage guide</a> for imports, setup and current limits.</p>
       </section>
     </main>
   )

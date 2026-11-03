@@ -15,3 +15,7 @@ Use the single-context layout. See `docs/agents/domain.md`.
 ### Building product interfaces
 
 Read `USAGE.md` before building with Modern8-bits. It records the presentation choice, real component APIs, setup, and validation requirements.
+
+### Grid device references
+
+When adding devices or refreshing safe-area, orientation, zoom, fold, or window coverage in Storybook, follow `docs/agents/grid-devices.md`.

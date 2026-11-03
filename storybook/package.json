@@ -4,10 +4,13 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "predev": "node ../scripts/prepare-grid-docs.mjs",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
+    "prestorybook": "node ../scripts/prepare-grid-docs.mjs",
     "storybook": "storybook dev -p 6006",
+    "prebuild-storybook": "node ../scripts/prepare-grid-docs.mjs",
     "build-storybook": "storybook build"
   },
   "dependencies": {

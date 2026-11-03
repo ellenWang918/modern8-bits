@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import { expect, userEvent, within } from 'storybook/test'
 import { GettingStarted } from './GettingStarted'
 
-const meta = { title: 'Foundation/Getting Started', component: GettingStarted, tags: ['!autodocs'] } satisfies Meta<typeof GettingStarted>
+const meta = { title: 'Get started/Getting Started', component: GettingStarted, tags: ['!autodocs'] } satisfies Meta<typeof GettingStarted>
 export default meta
 type Story = StoryObj<typeof meta>
 

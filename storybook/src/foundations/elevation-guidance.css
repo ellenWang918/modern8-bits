@@ -1,0 +1,79 @@
+.m8-elevation-docs { overflow-wrap: anywhere; }
+.m8-elevation-docs h1, .m8-elevation-docs h2 { font-family: var(--m8-presentation-font-display); color: inherit; }
+.m8-elevation-docs h2 { font-weight: 500; }
+.m8-elevation-docs h3 { font: 500 20px/1.4 var(--m8-presentation-font-display); }
+.m8-elevation-docs p { line-height: 1.6; }
+.m8-elevation-section { padding: var(--m8-space-8) 0; border-bottom: 1px solid var(--m8-border-default); scroll-margin-top: var(--m8-space-6); }
+.m8-elevation-section > h2 { margin: 0 0 var(--m8-space-4); border: 0; padding: 0; }
+.m8-elevation-anatomy-block { margin-block: var(--m8-space-6); }
+.m8-elevation-anatomy { position: relative; aspect-ratio: 108 / 44; overflow: hidden; border: 1px solid var(--m8-border-default); border-radius: var(--m8-presentation-radius-card); background: var(--m8-background-surface); }
+.m8-elevation-anatomy__planes { display: block; width: 100%; height: 100%; }
+.m8-elevation-anatomy__plane { stroke: var(--m8-elevation-border); stroke-width: 1; stroke-linejoin: round; }
+.m8-elevation-anatomy__base { fill: var(--m8-elevation-surface-base); }
+.m8-elevation-anatomy__sunken { fill: var(--m8-elevation-surface-sunken); }
+.m8-elevation-anatomy__raised { fill: var(--m8-elevation-surface-raised); }
+.m8-elevation-anatomy__overlay { fill: var(--m8-elevation-surface-overlay); }
+.m8-elevation-anatomy__ruler { stroke: var(--m8-border-input); stroke-width: 1; }
+.m8-elevation-anatomy__ruler text { fill: var(--m8-text-secondary); stroke: none; text-anchor: middle; font: 400 17px var(--m8-presentation-font-detail); }
+.m8-elevation-anatomy__leaders { stroke: var(--m8-text-primary); stroke-width: 2; }
+.m8-elevation-anatomy__leaders circle { fill: var(--m8-text-primary); stroke: none; }
+.m8-elevation-anatomy__label { position: absolute; left: 14%; display: flex; align-items: center; gap: var(--m8-space-2); padding: var(--m8-space-2) var(--m8-space-3); transform: translateY(-50%); background: var(--m8-gray-100); border-radius: var(--m8-presentation-radius-small); }
+.m8-elevation-anatomy__label code { display: block; font-size: clamp(10px, 1vw, 13px); }
+.m8-elevation-anatomy__swatch { width: 18px; height: 18px; flex-shrink: 0; border: 1px solid var(--m8-border-input); border-radius: var(--m8-radius-small); background: var(--m8-elevation-surface-base); }
+.m8-elevation-anatomy__label[data-layer='sunken'] .m8-elevation-anatomy__swatch { background: var(--m8-elevation-surface-sunken); }
+.m8-elevation-role-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--m8-space-6); margin-block: var(--m8-space-6); }
+.m8-elevation-role-demo { display: grid; align-items: center; min-height: 240px; padding: var(--m8-space-6); background: var(--m8-background-surface); margin-bottom: var(--m8-space-4); }
+.m8-elevation-role-demo > div { min-height: 112px; display: flex; flex-direction: column; justify-content: center; gap: var(--m8-space-2); padding: var(--m8-space-4); }
+.m8-elevation-role-demo span { font-size: 12px; }
+.m8-elevation-role-demo__base > span { color: var(--m8-text-secondary); }
+.m8-elevation-role-demo__well { padding: var(--m8-space-3); }
+.m8-elevation-role-demo__well > strong { font-size: 13px; }
+.m8-elevation-role-demo__well .m8-elevation-well__components { margin-top: var(--m8-space-2); }
+.m8-elevation-role-demo__well .m8-elevation-well__components > div { padding: var(--m8-space-2); font-size: 12px; }
+.m8-elevation-well__components { display: grid; gap: var(--m8-space-3); margin-top: var(--m8-space-4); }
+.m8-elevation-well__components > div { padding: var(--m8-space-3); background: var(--m8-background-card); color: var(--m8-text-primary); border: 1px solid var(--m8-border-card); border-radius: var(--m8-presentation-radius-small); font-size: 13px; }
+.m8-elevation-well__components span { display: block; margin-top: var(--m8-space-1); color: var(--m8-text-secondary); font-size: 12px; }
+.m8-elevation-docs .m8-elevation-note { font-size: 13px; color: var(--m8-text-secondary); }
+.m8-elevation-callout { padding: var(--m8-space-6); margin-top: var(--m8-space-6); background: var(--m8-background-surface); border-left: 3px solid var(--m8-border-strong); }
+.m8-elevation-callout p:last-child { margin-bottom: 0; }
+.m8-elevation-simulator { border: 1px solid var(--m8-border-default); padding: var(--m8-space-6); }
+.m8-elevation-controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--m8-space-4); }
+.m8-elevation-controls label { display: grid; gap: var(--m8-space-2); font-weight: 500; font-size: 14px; }
+.m8-elevation-controls select { width: 100%; min-width: 0; min-height: 44px; padding: var(--m8-space-2); font: inherit; color: var(--m8-text-primary); background: var(--m8-background-canvas); border: 1px solid var(--m8-border-input); border-radius: var(--m8-presentation-radius-small); }
+.m8-elevation-controls .m8-elevation-check { display: flex; align-items: center; min-height: 44px; grid-column: 1 / -1; }
+.m8-elevation-check input { width: 20px; height: 20px; accent-color: var(--m8-action-primary); }
+.m8-elevation-comparison, .m8-elevation-two-up { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--m8-space-4); }
+.m8-elevation-preview { min-width: 0; margin: 0; padding: var(--m8-space-4); background: var(--m8-elevation-surface-base); color: var(--m8-text-primary); border: 1px solid var(--m8-elevation-border); }
+.m8-elevation-preview figcaption { margin-bottom: var(--m8-space-4); font-size: 14px; font-weight: 500; }
+.m8-elevation-scene { min-height: 248px; position: relative; isolation: isolate; overflow: hidden; display: grid; place-items: center; padding: var(--m8-space-6); }
+.m8-elevation-context { position: absolute; inset: var(--m8-space-2); padding: var(--m8-space-3); display: grid; align-content: start; gap: var(--m8-space-4); color: var(--m8-text-secondary); font-size: 12px; }
+.m8-elevation-context i { height: 24px; background: var(--m8-background-surface); border: 1px solid var(--m8-border-default); }
+.m8-elevation-scene__scrim { position: absolute; inset: 0; background: var(--m8-elevation-scrim); }
+.m8-elevation-scene__sample { position: relative; width: 100%; padding: var(--m8-space-4); }
+.m8-elevation-scene__sample > span { display: block; font-size: 12px; margin-top: var(--m8-space-2); }
+.m8-elevation-scene__sample p { margin-bottom: 0; font-size: 13px; }
+.m8-elevation-scene[data-scenario='sticky'] { align-items: start; }
+.m8-elevation-scene[data-scenario='well'] { padding-top: var(--m8-space-12); }
+.m8-elevation-table-wrap { max-width: 100%; overflow-x: auto; }
+.m8-elevation-docs table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.m8-elevation-docs :is(th, td) { padding: var(--m8-space-3); text-align: left; vertical-align: top; border: 0; border-bottom: 1px solid var(--m8-border-default); background: transparent; }
+.m8-elevation-docs tr { background: transparent; border: 0; }
+.m8-elevation-docs caption { text-align: left; font-size: 13px; margin-bottom: var(--m8-space-3); color: var(--m8-text-secondary); }
+.m8-elevation-docs pre { max-width: 100%; padding: var(--m8-space-4); overflow: auto; background: var(--m8-background-surface); color: var(--m8-text-primary); font-size: 12px; }
+.m8-elevation-docs code { color: inherit; background: transparent; font-family: var(--m8-presentation-font-detail); }
+.m8-elevation-docs summary { cursor: pointer; padding-block: var(--m8-space-4); font-weight: 500; }
+@media (min-width: 673px) and (max-width: 1100px) {
+  .m8-elevation-anatomy__label { padding: var(--m8-space-1) var(--m8-space-2); }
+}
+@media (max-width: 672px) {
+  .m8-elevation-role-list { grid-template-columns: minmax(0, 1fr); }
+  .m8-elevation-anatomy { aspect-ratio: auto; }
+  .m8-elevation-anatomy__planes { height: 220px; width: 160%; margin-left: -60%; }
+  .m8-elevation-anatomy__leaders, .m8-elevation-anatomy__ruler { display: none; }
+  .m8-elevation-anatomy__labels { display: grid; gap: var(--m8-space-3); padding: var(--m8-space-4); }
+  .m8-elevation-anatomy__label { position: static; transform: none; min-width: 0; }
+  .m8-elevation-anatomy__label code { font-size: 12px; overflow-wrap: anywhere; }
+  .m8-elevation-comparison, .m8-elevation-two-up, .m8-elevation-controls { grid-template-columns: minmax(0, 1fr); }
+  .m8-elevation-simulator { padding: var(--m8-space-3); }
+  .m8-elevation-scene { padding: var(--m8-space-4); }
+}

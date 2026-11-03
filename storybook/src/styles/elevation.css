@@ -1,0 +1,61 @@
+/* Elevation extension defined in code on 2026-11-03; Figma authoring is pending.
+   These tokens are separate from the verified Figma snapshot in Design Token. */
+:root,
+[data-theme='light'] {
+  --m8-elevation-surface-base: var(--m8-background-canvas);
+  --m8-elevation-surface-sunken: var(--m8-gray-100);
+  --m8-elevation-surface-raised: var(--m8-background-raised);
+  --m8-elevation-surface-overlay: var(--m8-gray-0);
+  --m8-elevation-border: var(--m8-border-default);
+  --m8-elevation-shadow-raised: 0 1px 2px rgb(0 0 0 / 12%), 0 4px 8px rgb(0 0 0 / 8%);
+  --m8-elevation-shadow-overlay: 0 4px 8px rgb(0 0 0 / 16%), 0 12px 24px rgb(0 0 0 / 12%);
+  --m8-elevation-scrim: rgb(0 0 0 / 40%);
+}
+[data-theme='dark'] {
+  --m8-elevation-surface-base: var(--m8-background-canvas);
+  --m8-elevation-surface-sunken: var(--m8-gray-950);
+  --m8-elevation-surface-raised: var(--m8-background-raised);
+  --m8-elevation-surface-overlay: var(--m8-neutral-800);
+  --m8-elevation-border: var(--m8-gray-600);
+  --m8-elevation-shadow-raised: 0 1px 2px rgb(0 0 0 / 32%), 0 4px 8px rgb(0 0 0 / 24%);
+  --m8-elevation-shadow-overlay: 0 4px 8px rgb(0 0 0 / 40%), 0 12px 24px rgb(0 0 0 / 32%);
+  --m8-elevation-scrim: rgb(0 0 0 / 64%);
+}
+:root {
+  --m8-elevation-shadow-base: none;
+  --m8-elevation-shadow-sunken: none;
+  /* Relative ordering within one application stacking context; native dialogs
+     and popovers use the browser top layer and are not ranked by these numbers. */
+  --m8-layer-content: 0;
+  --m8-layer-sticky: 100;
+  --m8-layer-floating: 200;
+  --m8-layer-scrim: 300;
+  --m8-layer-modal: 400;
+  --m8-layer-feedback: 500;
+  --m8-layer-tooltip: 600;
+}
+.m8-elevation-surface {
+  background: var(--m8-elevation-surface-base);
+  color: var(--m8-text-primary);
+  border: 1px solid var(--m8-elevation-border);
+  border-radius: var(--m8-presentation-radius-card, var(--m8-radius-medium));
+  box-shadow: var(--m8-elevation-shadow-base);
+}
+.m8-elevation-surface[data-elevation='sunken'] {
+  background: var(--m8-elevation-surface-sunken);
+  box-shadow: var(--m8-elevation-shadow-sunken);
+}
+.m8-elevation-surface[data-elevation='raised'] {
+  background: var(--m8-elevation-surface-raised);
+  box-shadow: var(--m8-elevation-shadow-raised);
+}
+.m8-elevation-surface[data-elevation='overlay'] {
+  background: var(--m8-elevation-surface-overlay);
+  box-shadow: var(--m8-elevation-shadow-overlay);
+}
+[data-presentation='low-fidelity'] .m8-elevation-surface,
+.m8-elevation-surface[data-presentation='low-fidelity'] {
+  border-color: var(--m8-border-strong);
+  border-radius: var(--m8-radius-none);
+  box-shadow: none;
+}

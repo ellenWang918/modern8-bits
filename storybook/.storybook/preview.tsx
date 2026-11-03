@@ -8,17 +8,20 @@ const preview: Preview = {
   parameters: {
     options: {
       storySort: (a, b) => {
-        const sectionOrder = ['Foundation', 'Component', 'Pattern']
+        const sectionOrder = ['Get started', 'Foundation', 'Component', 'Pattern']
         const sectionA = a.title.split('/')[0]
         const sectionB = b.title.split('/')[0]
         const sectionDifference = sectionOrder.indexOf(sectionA) - sectionOrder.indexOf(sectionB)
         if (sectionDifference !== 0) return sectionDifference
 
-        if (sectionA === 'Foundation' && a.title !== b.title) {
-          if (a.title === 'Foundation/Overview') return -1
-          if (b.title === 'Foundation/Overview') return 1
-          if (a.title === 'Foundation/Getting Started') return -1
-          if (b.title === 'Foundation/Getting Started') return 1
+        if (sectionA === 'Get started' && a.title !== b.title) {
+          const pageOrder = ['Overview', 'Getting Started', 'Start Project']
+          return pageOrder.indexOf(a.title.split('/')[1]) - pageOrder.indexOf(b.title.split('/')[1])
+        }
+
+        if (a.title === b.title && a.title === 'Foundation/Grid') {
+          const gridOrder = ['Docs', 'Bento Layout', 'Mobile Mockup', 'Website Mockup']
+          return (gridOrder.indexOf(a.name) < 0 ? 99 : gridOrder.indexOf(a.name)) - (gridOrder.indexOf(b.name) < 0 ? 99 : gridOrder.indexOf(b.name)) || a.name.localeCompare(b.name)
         }
 
         if (a.title === b.title && a.title === 'Component/Button') {
@@ -64,7 +67,7 @@ const preview: Preview = {
       <div
         data-theme={context.globals.theme}
         data-presentation={context.globals.presentation ?? 'default'}
-        style={{ minHeight: context.viewMode === 'docs' ? 'auto' : '100vh', padding: '32px' }}
+        style={{ minHeight: context.viewMode === 'docs' ? 'auto' : '100vh', padding: context.parameters.canvasPadding ?? '32px' }}
       >
         <Story />
       </div>

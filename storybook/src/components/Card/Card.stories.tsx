@@ -6,6 +6,7 @@ const meta = {
   title: 'Component/Card',
   component: Card,
   tags: ['autodocs'],
+  parameters: { docs: { description: { component: 'Keep card boundaries and padding aligned to the grid; balance visible content inside the card. Follow the [Alignment foundation](./?path=/docs/foundation-alignment--docs) for text baselines, shared content edges, and local optical corrections.' } } },
   args: {
     eyebrow: 'FOUNDATIONS',
     title: 'Build with intention',

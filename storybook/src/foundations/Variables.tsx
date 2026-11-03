@@ -22,6 +22,11 @@ export function Variables() {
     const targetId = link.getAttribute('href')?.slice(1)
     if (targetId) link.ownerDocument.getElementById(targetId)?.scrollIntoView({ block: 'start' })
   }
+  const scrollToTop = (event: MouseEvent<HTMLButtonElement>) => {
+    const heading = event.currentTarget.closest('.m8-variables')?.querySelector<HTMLElement>('h1')
+    heading?.closest('header')?.scrollIntoView({ block: 'start', behavior: 'instant' })
+    heading?.focus({ preventScroll: true })
+  }
   const [query, setQuery] = useState('')
   const [collection, setCollection] = useState('All')
   const filtered = variables.filter(variable =>
@@ -34,7 +39,7 @@ export function Variables() {
     <main className="m8-variables">
       <header className="m8-variables__header">
         <div className="m8-variables__header-content">
-        <h1>Design Token</h1>
+        <h1 tabIndex={-1}>Design Token</h1>
         <p>Every existing Figma variable, with its values, references, and usage guidance.</p>
         <p className="m8-variables__note">
           Figma snapshot · 6 October 2026 · {variables.length} variables. This page is a reference;
@@ -134,6 +139,7 @@ export function Variables() {
       </div>
       <nav className="m8-variables__toc" aria-label="Variables table of contents">
         <h2>On this page</h2>
+        <div className="m8-variables__toc-links">
         {collections.slice(1).map(name => {
           const group = filtered.filter(variable => variable.collection === name)
           if (!group.length) return null
@@ -153,6 +159,8 @@ export function Variables() {
         {filtered.length === 0 && <p>No matching sections.</p>}
         <a className="m8-variables__toc-section" href={`#${anchorId('usage')}`} onClick={scrollToSection}>Usage and states</a>
         <a className="m8-variables__toc-section" href={`#${anchorId('typography-layout')}`} onClick={scrollToSection}>Typography and layout</a>
+        </div>
+        <button type="button" className="m8-variables__back-top" aria-label="Back to top" title="Back to top" onClick={scrollToTop}><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" /></svg></button>
       </nav>
       </div>
     </main>

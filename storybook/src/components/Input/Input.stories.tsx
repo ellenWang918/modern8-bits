@@ -6,6 +6,7 @@ const meta = {
   title: 'Component/Input',
   component: Input,
   tags: ['autodocs'],
+  parameters: { docs: { description: { component: 'Keep field boundaries, labels, and hints on consistent layout anchors. With multiline labels, align supporting content to the first line. Follow the [Alignment foundation](./?path=/docs/foundation-alignment--docs); preserve the field’s focus ring and hit area when refining visible content.' } } },
   args: { label: 'Email address', placeholder: 'you@example.com', hint: 'We’ll only use this for your account.' },
   argTypes: {
     type: { control: 'select', options: ['text', 'email', 'password', 'search', 'url', 'date', 'number'] },

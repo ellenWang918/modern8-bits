@@ -1,6 +1,6 @@
 # Build with Modern8-bits
 
-Use this guide when building a product with Modern8-bits, including work performed by a coding agent. Review the interactive [Getting Started page](http://localhost:6006/?path=/docs/foundation-getting-started--docs) for examples.
+Use this guide when building a product with Modern8-bits, including work performed by a coding agent. Review the interactive [Getting Started page](http://localhost:6006/?path=/docs/get-started-getting-started--docs) for examples.
 
 ## Start with one choice
 

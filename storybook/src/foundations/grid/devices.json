@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "iphone-18-pro-max",
+    "name": "iPhone 18 Pro Max",
+    "source": "https://safearea.info/iphone-18-pro-max",
+    "reference": "https://safearea.info/iphone-18-pro-max.md",
+    "checkedOn": "2026-10-23",
+    "unit": "pt",
+    "scope": "All measured orientations and display-zoom settings",
+    "omittedProfiles": [
+      "Portrait Upside Down · Display Zoom: Off",
+      "Portrait Upside Down · Display Zoom: On"
+    ],
+    "profiles": [
+      {
+        "id": "portrait-display-zoom-off-fullscreen",
+        "label": "Portrait · Display Zoom: Off",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 440,
+          "height": 956
+        },
+        "window": {
+          "width": 440,
+          "height": 956
+        },
+        "insets": {
+          "top": 62,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "portrait-display-zoom-on-fullscreen",
+        "label": "Portrait · Display Zoom: On",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 375,
+          "height": 812
+        },
+        "window": {
+          "width": 375,
+          "height": 812
+        },
+        "insets": {
+          "top": 53,
+          "bottom": 29,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-left-display-zoom-off-fullscreen",
+        "label": "Landscape Left · Display Zoom: Off",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 956,
+          "height": 440
+        },
+        "window": {
+          "width": 956,
+          "height": 440
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 20,
+          "left": 62,
+          "right": 62
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-left-display-zoom-on-fullscreen",
+        "label": "Landscape Left · Display Zoom: On",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 812,
+          "height": 375
+        },
+        "window": {
+          "width": 812,
+          "height": 375
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 20,
+          "left": 53,
+          "right": 53
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-right-display-zoom-off-fullscreen",
+        "label": "Landscape Right · Display Zoom: Off",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 956,
+          "height": 440
+        },
+        "window": {
+          "width": 956,
+          "height": 440
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 20,
+          "left": 62,
+          "right": 62
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-right-display-zoom-on-fullscreen",
+        "label": "Landscape Right · Display Zoom: On",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 812,
+          "height": 375
+        },
+        "window": {
+          "width": 812,
+          "height": 375
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 20,
+          "left": 53,
+          "right": 53
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      }
+    ]
+  },
+  {
+    "id": "iphone-17-pro",
+    "name": "iPhone 17 Pro",
+    "source": "https://safearea.info/iphone-17-pro",
+    "reference": "https://safearea.info/iphone-17-pro.md",
+    "checkedOn": "2026-10-23",
+    "unit": "pt",
+    "scope": "All measured orientations and display-zoom settings",
+    "omittedProfiles": [
+      "Portrait Upside Down · Display Zoom: Off",
+      "Portrait Upside Down · Display Zoom: On"
+    ],
+    "profiles": [
+      {
+        "id": "portrait-display-zoom-off-fullscreen",
+        "label": "Portrait · Display Zoom: Off",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 402,
+          "height": 874
+        },
+        "window": {
+          "width": 402,
+          "height": 874
+        },
+        "insets": {
+          "top": 62,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "portrait-display-zoom-on-fullscreen",
+        "label": "Portrait · Display Zoom: On",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 320,
+          "height": 693
+        },
+        "window": {
+          "width": 320,
+          "height": 693
+        },
+        "insets": {
+          "top": 49,
+          "bottom": 27,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-left-display-zoom-off-fullscreen",
+        "label": "Landscape Left · Display Zoom: Off",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 874,
+          "height": 402
+        },
+        "window": {
+          "width": 874,
+          "height": 402
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 20,
+          "left": 62,
+          "right": 62
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-left-display-zoom-on-fullscreen",
+        "label": "Landscape Left · Display Zoom: On",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 693,
+          "height": 320
+        },
+        "window": {
+          "width": 693,
+          "height": 320
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 20,
+          "left": 49,
+          "right": 49
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-right-display-zoom-off-fullscreen",
+        "label": "Landscape Right · Display Zoom: Off",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 874,
+          "height": 402
+        },
+        "window": {
+          "width": 874,
+          "height": 402
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 20,
+          "left": 62,
+          "right": 62
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-right-display-zoom-on-fullscreen",
+        "label": "Landscape Right · Display Zoom: On",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 693,
+          "height": 320
+        },
+        "window": {
+          "width": 693,
+          "height": 320
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 20,
+          "left": 49,
+          "right": 49
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      }
+    ]
+  },
+  {
+    "id": "iphone-duo",
+    "name": "iPhone Duo",
+    "source": "https://safearea.info/iphone-duo",
+    "reference": "https://safearea.info/iphone-duo.md",
+    "checkedOn": "2026-10-23",
+    "unit": "pt",
+    "scope": "Latest source SDK only: Xcode 27.1",
+    "omittedProfiles": [
+      "Portrait Upside Down · Closed · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off"
+    ],
+    "profiles": [
+      {
+        "id": "portrait-closed-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Portrait · Closed · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 466,
+          "height": 678
+        },
+        "window": {
+          "width": 466,
+          "height": 678
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 399.67,
+            "y": 29.33,
+            "width": 37,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 382,
+            "y": 0,
+            "width": 84,
+            "height": 174
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-closed-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Portrait · Closed · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 466,
+          "height": 678
+        },
+        "window": {
+          "width": 466,
+          "height": 678
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 399.67,
+            "y": 29.33,
+            "width": 37,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 266,
+            "y": 0,
+            "width": 200,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-closed-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Left · Closed · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 678,
+          "height": 466
+        },
+        "window": {
+          "width": 678,
+          "height": 466
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 611.67,
+            "y": 399.67,
+            "width": 37,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 594,
+            "y": 384,
+            "width": 84,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-closed-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Left · Closed · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 678,
+          "height": 466
+        },
+        "window": {
+          "width": 678,
+          "height": 466
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 82,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 611.67,
+            "y": 399.67,
+            "width": 37,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 594,
+            "y": 384,
+            "width": 84,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-closed-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Right · Closed · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 678,
+          "height": 466
+        },
+        "window": {
+          "width": 678,
+          "height": 466
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 84,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 29.33,
+            "y": 29.33,
+            "width": 37,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 0,
+            "y": 0,
+            "width": 84,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-closed-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Right · Closed · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 678,
+          "height": 466
+        },
+        "window": {
+          "width": 678,
+          "height": 466
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 29.33,
+            "y": 29.33,
+            "width": 37,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 0,
+            "y": 0,
+            "width": 84,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-partially-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Portrait · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 455.5,
+            "width": 669,
+            "height": 40
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-partially-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Portrait · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 455.5,
+            "width": 669,
+            "height": 40
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-partially-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-on-fullscreen",
+        "label": "Portrait · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: On",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 21,
+            "y": 215.67,
+            "width": 37,
+            "height": 58
+          },
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 455.5,
+            "width": 669,
+            "height": 40
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-partially-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-off-fullscreen",
+        "label": "Portrait · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: Off",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 21,
+            "y": 215.67,
+            "width": 37,
+            "height": 58
+          },
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 455.5,
+            "width": 669,
+            "height": 40
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 867,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 40,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 807,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 40,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: On",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 677.33,
+            "y": 21,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 807,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 40,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: Off",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 677.33,
+            "y": 21,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 867,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 40,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-off-split-left",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: Off · split-left",
+        "orientation": "Landscape Left",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-off-split-right",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: Off · split-right",
+        "orientation": "Landscape Left",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 385,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-on-split-left",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: On · split-left",
+        "orientation": "Landscape Left",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-on-split-right",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: On · split-right",
+        "orientation": "Landscape Left",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 325,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-on-split-left",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: On · split-left",
+        "orientation": "Landscape Left",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-on-split-right",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: On · split-right",
+        "orientation": "Landscape Left",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 195.33,
+            "y": 21,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 325,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-off-split-left",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: Off · split-left",
+        "orientation": "Landscape Left",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-partially-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-off-split-right",
+        "label": "Landscape Left · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: Off · split-right",
+        "orientation": "Landscape Left",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 195.33,
+            "y": 21,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 385,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 867,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 40,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 807,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 40,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: On",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 215.67,
+            "y": 611,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 807,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 40,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: Off",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 215.67,
+            "y": 611,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 867,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 40,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-off-split-left",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: Off · split-left",
+        "orientation": "Landscape Right",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-off-split-right",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: Off · split-right",
+        "orientation": "Landscape Right",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 385,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-on-split-left",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: On · split-left",
+        "orientation": "Landscape Right",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-on-split-right",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: On · split-right",
+        "orientation": "Landscape Right",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 325,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-on-split-left",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: On · split-left",
+        "orientation": "Landscape Right",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 215.67,
+            "y": 611,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-on-split-right",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: On · split-right",
+        "orientation": "Landscape Right",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 325,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-off-split-left",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: Off · split-left",
+        "orientation": "Landscape Right",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 215.67,
+            "y": 611,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "division",
+            "x": 455.5,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-partially-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-off-split-right",
+        "label": "Landscape Right · Partially Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: Off · split-right",
+        "orientation": "Landscape Right",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 385,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 0,
+            "width": 13.5,
+            "height": 669
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-upside-down-partially-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Portrait Upside Down · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 455.5,
+            "width": 669,
+            "height": 40
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-upside-down-partially-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Portrait Upside Down · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 455.5,
+            "width": 669,
+            "height": 40
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-upside-down-partially-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-on-fullscreen",
+        "label": "Portrait Upside Down · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: On",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 611,
+            "y": 677.33,
+            "width": 37,
+            "height": 58
+          },
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 455.5,
+            "width": 669,
+            "height": 40
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-upside-down-partially-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-off-fullscreen",
+        "label": "Portrait Upside Down · Partially Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: Off",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 611,
+            "y": 677.33,
+            "width": 37,
+            "height": 58
+          },
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          },
+          {
+            "kind": "division",
+            "x": 0,
+            "y": 455.5,
+            "width": 669,
+            "height": 40
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-fully-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Portrait · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-fully-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Portrait · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-fully-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-on-fullscreen",
+        "label": "Portrait · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: On",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 21,
+            "y": 215.67,
+            "width": 37,
+            "height": 58
+          },
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-fully-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-off-fullscreen",
+        "label": "Portrait · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: Off",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 21,
+            "y": 215.67,
+            "width": 37,
+            "height": 58
+          },
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 867,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 807,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: On",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 677.33,
+            "y": 21,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 807,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: Off",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 677.33,
+            "y": 21,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 867,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-off-split-left",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: Off · split-left",
+        "orientation": "Landscape Left",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-off-split-right",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: Off · split-right",
+        "orientation": "Landscape Left",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 385,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-on-split-left",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: On · split-left",
+        "orientation": "Landscape Left",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-on-split-right",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: On · split-right",
+        "orientation": "Landscape Left",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 325,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-on-split-left",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: On · split-left",
+        "orientation": "Landscape Left",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-on-split-right",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: On · split-right",
+        "orientation": "Landscape Left",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 195.33,
+            "y": 21,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 325,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-off-split-left",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: Off · split-left",
+        "orientation": "Landscape Left",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-left-fully-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-off-split-right",
+        "label": "Landscape Left · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: Off · split-right",
+        "orientation": "Landscape Left",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 195.33,
+            "y": 21,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 385,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 867,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 807,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-on-fullscreen",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: On",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 215.67,
+            "y": 611,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 807,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-off-fullscreen",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: Off",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 951,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 215.67,
+            "y": 611,
+            "width": 58,
+            "height": 37
+          },
+          {
+            "kind": "occlusion",
+            "x": 867,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-off-split-left",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: Off · split-left",
+        "orientation": "Landscape Right",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-off-split-right",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: Off · split-right",
+        "orientation": "Landscape Right",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 385,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-on-split-left",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: On · split-left",
+        "orientation": "Landscape Right",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-on-inner-camera-off-horizontal-toolbar-on-split-right",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: Off · Horizontal Toolbar: On · split-right",
+        "orientation": "Landscape Right",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 325,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-on-split-left",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: On · split-left",
+        "orientation": "Landscape Right",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 215.67,
+            "y": 611,
+            "width": 58,
+            "height": 37
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-on-split-right",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: On · split-right",
+        "orientation": "Landscape Right",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 325,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-off-split-left",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: Off · split-left",
+        "orientation": "Landscape Right",
+        "windowId": "split-left",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 215.67,
+            "y": 611,
+            "width": 58,
+            "height": 37
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "landscape-right-fully-open-xcode-27-1-split-view-on-inner-camera-on-horizontal-toolbar-off-split-right",
+        "label": "Landscape Right · Fully Open · Xcode 27.1 · Split View: On · Inner Camera: On · Horizontal Toolbar: Off · split-right",
+        "orientation": "Landscape Right",
+        "windowId": "split-right",
+        "screen": {
+          "width": 951,
+          "height": 669
+        },
+        "window": {
+          "width": 469,
+          "height": 669
+        },
+        "insets": {
+          "top": 0,
+          "bottom": 34,
+          "left": 0,
+          "right": 84
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 385,
+            "y": 0,
+            "width": 84,
+            "height": 124
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-upside-down-fully-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-off-fullscreen",
+        "label": "Portrait Upside Down · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: Off",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-upside-down-fully-open-xcode-27-1-split-view-off-inner-camera-off-horizontal-toolbar-on-fullscreen",
+        "label": "Portrait Upside Down · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: Off · Horizontal Toolbar: On",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-upside-down-fully-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-on-fullscreen",
+        "label": "Portrait Upside Down · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: On",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 611,
+            "y": 677.33,
+            "width": 37,
+            "height": 58
+          },
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      },
+      {
+        "id": "portrait-upside-down-fully-open-xcode-27-1-split-view-off-inner-camera-on-horizontal-toolbar-off-fullscreen",
+        "label": "Portrait Upside Down · Fully Open · Xcode 27.1 · Split View: Off · Inner Camera: On · Horizontal Toolbar: Off",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 669,
+          "height": 951
+        },
+        "window": {
+          "width": 669,
+          "height": 951
+        },
+        "insets": {
+          "top": 82,
+          "bottom": 34,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [
+          {
+            "kind": "occlusion",
+            "x": 611,
+            "y": 677.33,
+            "width": 37,
+            "height": 58
+          },
+          {
+            "kind": "occlusion",
+            "x": 525,
+            "y": 0,
+            "width": 144,
+            "height": 82
+          }
+        ],
+        "measuredOn": "Xcode 27.1"
+      }
+    ]
+  },
+  {
+    "id": "ipad-air-13-inch-m4",
+    "name": "iPad Air 13-inch (M4)",
+    "source": "https://safearea.info/ipad-air-13-inch-m4",
+    "reference": "https://safearea.info/ipad-air-13-inch-m4.md",
+    "checkedOn": "2026-10-23",
+    "unit": "pt",
+    "scope": "All measured orientations and display-zoom settings",
+    "omittedProfiles": [],
+    "profiles": [
+      {
+        "id": "portrait-display-zoom-default-fullscreen",
+        "label": "Portrait · Display Zoom: Default",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1024,
+          "height": 1366
+        },
+        "window": {
+          "width": 1024,
+          "height": 1366
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "portrait-display-zoom-larger-text-fullscreen",
+        "label": "Portrait · Display Zoom: Larger Text",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 768,
+          "height": 1024
+        },
+        "window": {
+          "width": 768,
+          "height": 1024
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "portrait-display-zoom-more-space-fullscreen",
+        "label": "Portrait · Display Zoom: More Space",
+        "orientation": "Portrait",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1192,
+          "height": 1590
+        },
+        "window": {
+          "width": 1192,
+          "height": 1590
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-left-display-zoom-default-fullscreen",
+        "label": "Landscape Left · Display Zoom: Default",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1366,
+          "height": 1024
+        },
+        "window": {
+          "width": 1366,
+          "height": 1024
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-left-display-zoom-larger-text-fullscreen",
+        "label": "Landscape Left · Display Zoom: Larger Text",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1024,
+          "height": 768
+        },
+        "window": {
+          "width": 1024,
+          "height": 768
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-left-display-zoom-more-space-fullscreen",
+        "label": "Landscape Left · Display Zoom: More Space",
+        "orientation": "Landscape Left",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1590,
+          "height": 1192
+        },
+        "window": {
+          "width": 1590,
+          "height": 1192
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-right-display-zoom-default-fullscreen",
+        "label": "Landscape Right · Display Zoom: Default",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1366,
+          "height": 1024
+        },
+        "window": {
+          "width": 1366,
+          "height": 1024
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-right-display-zoom-larger-text-fullscreen",
+        "label": "Landscape Right · Display Zoom: Larger Text",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1024,
+          "height": 768
+        },
+        "window": {
+          "width": 1024,
+          "height": 768
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "landscape-right-display-zoom-more-space-fullscreen",
+        "label": "Landscape Right · Display Zoom: More Space",
+        "orientation": "Landscape Right",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1590,
+          "height": 1192
+        },
+        "window": {
+          "width": 1590,
+          "height": 1192
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "portrait-upside-down-display-zoom-default-fullscreen",
+        "label": "Portrait Upside Down · Display Zoom: Default",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1024,
+          "height": 1366
+        },
+        "window": {
+          "width": 1024,
+          "height": 1366
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "portrait-upside-down-display-zoom-larger-text-fullscreen",
+        "label": "Portrait Upside Down · Display Zoom: Larger Text",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 768,
+          "height": 1024
+        },
+        "window": {
+          "width": 768,
+          "height": 1024
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      },
+      {
+        "id": "portrait-upside-down-display-zoom-more-space-fullscreen",
+        "label": "Portrait Upside Down · Display Zoom: More Space",
+        "orientation": "Portrait Upside Down",
+        "windowId": "fullscreen",
+        "screen": {
+          "width": 1192,
+          "height": 1590
+        },
+        "window": {
+          "width": 1192,
+          "height": 1590
+        },
+        "insets": {
+          "top": 32,
+          "bottom": 25,
+          "left": 0,
+          "right": 0
+        },
+        "reservedRegions": [],
+        "measuredOn": "iOS 27.0 (24A434), SDK 27.1"
+      }
+    ]
+  }
+]
